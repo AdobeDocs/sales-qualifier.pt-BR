@@ -1,19 +1,15 @@
 ---
 title: Clientes potenciais no Sales Qualifier
-description: Saiba como criar, filtrar e revisar sua lista de clientes potenciais no Sales Qualifier para priorizar o alcance externo.
+description: Saiba como criar sua lista de clientes potenciais a partir do CRM, de fontes importadas e adicionadas manualmente, filtrar clientes potenciais e revisar detalhes do cliente potencial no Sales Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
 workflow-type: tm+mt
-source-wordcount: 550
+source-wordcount: 549
 ht-degree: 2%
 
 ---
@@ -67,18 +63,18 @@ Os administradores também podem disponibilizar campos do CRM mapeados como filt
 
 Em **[!UICONTROL Meus Contatos da Oportunidade]**, você também pode filtrar contatos por campos de suas oportunidades associadas, como estágio, tipo e data de fechamento. Os campos de oportunidade têm rótulos como **[!UICONTROL Estágio (Oportunidade)]**, que os distingue dos campos de contato. O administrador controla quais campos de oportunidade estão disponíveis como filtros.
 
-### Filtrar por envolvimento da Marketo
+### Filtrar por destaques de marketing
 
 Encontre e priorize prospetos por meio do envolvimento dinâmico do [!DNL Marketo], como aberturas e cliques de email, visitas da Web, preenchimentos de formulário e momentos interessantes. O engajamento aparece em tempo quase real, à medida que acontece.
 
-Para filtrar clientes potenciais por envolvimento da Marketo:
+Para filtrar clientes potenciais por Realces de marketing:
 
 1. Selecione **[!UICONTROL Filtro]**.
-1. Adicione um filtro de envolvimento [!DNL Marketo] e defina o tipo de atividade, a campanha ou outros atributos para se concentrar no envolvimento que é importante.
+1. Adicione um filtro de Destaques de marketing e defina o tipo de atividade, a campanha ou outros atributos para se concentrar no envolvimento importante.
 
 Cada cliente potencial mostra sua atividade [!DNL Marketo] mais recente junto com o histórico recente.
 
-A filtragem de envolvimento do Marketo está disponível em todas as regiões de produção. O administrador ativa a organização e a sandbox, e um profissional de marketing conclui uma configuração única no [!DNL Marketo]. Consulte [Ativar a filtragem de envolvimento do Marketo](integrations.md#turn-on-marketo-engagement-filtering).
+Os destaques de marketing estão disponíveis em todas as regiões de produção. Um administrador conclui uma instalação única que conecta o [!DNL Marketo] ao Sales Qualifier. Consulte [Configurar destaques de marketing](integrations.md#turn-on-marketo-engagement-filtering).
 
 ## Revisar detalhes do cliente potencial
 

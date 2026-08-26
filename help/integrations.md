@@ -3,18 +3,12 @@ title: Gerenciar integrações
 description: Saiba como conectar o Outlook, gerenciar conexões do CRM, mapear campos de entrada, sincronizar atividades e configurar a recusa de email global no Sales Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 1412
+source-wordcount: 1379
 ht-degree: 1%
 
 ---
@@ -96,6 +90,8 @@ Um cartão não configurado mostra **[!UICONTROL Conectar]**. Um cartão configu
 
    Insira a **[!UICONTROL ID do Cliente (Chave do Consumidor)]**, a **[!UICONTROL URL da Instância]** e o **[!UICONTROL Segredo do Cliente]**. Use o formulário de URL da instância canônica `https://{{mydomain}}.my.salesforce.com`.
 
+   ![conexão com o Salesforce](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
    >[!TAB Microsoft Dynamics]
 
    Insira a **[!UICONTROL ID do Cliente (Chave do Consumidor)]**, **[!UICONTROL ID do Locatário]**, **[!UICONTROL URL da Instância do Microsoft Dynamics]** e **[!UICONTROL Segredo do Cliente]**. Use o formulário de URL da instância canônica `https://{{mydomain}}.crm.dynamics.com`.
@@ -117,7 +113,7 @@ Se o Sales Qualifier rejeitar as credenciais, identificará a causa, como creden
 
 >[!WARNING]
 >
->Quando você desconecta um CRM, os Planos de Envolvimento são pausados para todos os clientes potenciais em sua organização e nenhum novo cliente potencial é sincronizado do seu CRM até que você se reconecte.
+>Quando você desconecta um CRM, os fluxos de trabalho de saída são pausados para todos os prospetos em sua organização e nenhum novo prospecto é sincronizado do seu CRM até que você se reconecte.
 
 ## Mapear campos do CRM (mapeamento de entrada) {#map-crm-fields-inbound-mapping}
 
@@ -148,7 +144,7 @@ Para alterar uma seção posteriormente, selecione **[!UICONTROL Editar]** no ca
 
 ## Configurar a sincronização de atividades (mapeamento de saída) {#configure-activity-sync-outbound-mapping}
 
-A sincronização de atividades grava atividades de alcance da Sales Qualifier no seu CRM e no Marketo. As atividades de email enviadas, abertas, clicadas e respondidas incluem o nome do Plano de Envolvimento. Os representantes podem ver as atividades no CRM, enquanto as equipes de marketing podem usar as atividades do Marketo na pontuação de clientes potenciais e nas linhas do tempo de engajamento.
+A sincronização de atividades grava atividades de alcance da Sales Qualifier no seu CRM e no Marketo. As atividades de email enviado, aberto, clicado e respondido incluem o nome do Fluxo de trabalho de saída. Os representantes podem ver as atividades no CRM, enquanto as equipes de marketing podem usar as atividades do Marketo na pontuação de clientes potenciais e nas linhas do tempo de engajamento.
 
 1. No cartão do CRM conectado, selecione **[!UICONTROL Gerenciar]**.
 1. Abra a guia **[!UICONTROL Mapeamento de saída]**.
@@ -160,20 +156,13 @@ Quando a sincronização de atividades está desativada, o Sales Qualifier conti
 >
 >A sincronização de atividades requer acesso de gravação no CRM. Se a permissão necessária estiver ausente, o switch será desativado e a Sales Qualifier solicitará que você entre em contato com o administrador. Para conceder acesso de gravação à atividade, fale com o administrador do CRM.
 
-## Ativar a filtragem de envolvimento do Marketo {#turn-on-marketo-engagement-filtering}
+## Configurar destaques de marketing {#turn-on-marketo-engagement-filtering}
 
-A filtragem de engajamento do Marketo permite que os representantes encontrem e priorizem clientes potenciais por meio de seu envolvimento [!DNL Marketo] em tempo real, como aberturas e cliques de email. Consulte [Filtrar por envolvimento da Marketo](prospects.md#filter-by-marketo-engagement).
+Os Destaques de marketing permitem que os representantes encontrem e priorizem clientes potenciais por meio do envolvimento ativo de [!DNL Marketo], como aberturas e cliques de email. Consulte [Filtrar por envolvimento da Marketo](prospects.md#filter-by-marketo-engagement).
 
-Um administrador ativa a filtragem de envolvimento do Marketo para a organização e a sandbox relevantes. Depois de ativado, um profissional de marketing conclui uma configuração única no [!DNL Marketo].
+Um administrador conclui uma configuração única que conecta o [!DNL Marketo] ao Sales Qualifier para a organização e a sandbox relevantes. A instalação abrange a criação de credenciais de API no Adobe Developer Console, a configuração de um webhook no [!DNL Marketo] e a adição desse webhook a um acionador de Campanha Inteligente. Consulte [Configurar destaques de marketing](marketing-highlights-setup.md) para ver as etapas completas.
 
-Para direcionar a atividade de uma Campanha inteligente para o Sales Qualifier:
-
-1. No [!DNL Marketo], abra a Campanha inteligente cuja atividade você deseja que flua para o Sales Qualifier.
-1. Adicione uma etapa do Webhook Call ao fluxo do Smart Campaign.
-
-Depois que a etapa do webhook estiver em vigor, a atividade do Campaign inteligente fluirá para o Sales Qualifier e os representantes poderão filtrar seus clientes potenciais usando essa etapa.
-
-A filtragem de engajamento do Marketo está disponível em todas as regiões de produção: América do Norte, EMEA e Austrália.
+Marketing Highlights está disponível em todas as regiões de produção: América do Norte, EMEA e Austrália.
 
 ## Configurar opção de não participação de email global {#configure-global-email-opt-out}
 

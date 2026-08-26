@@ -4,13 +4,10 @@ description: Saiba como gerenciar campos do CRM, sincronização de atividades, 
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 670
 ht-degree: 0%
@@ -48,7 +45,7 @@ O Sales Qualifier lê usuários, contatos, mapeamentos de proprietários, client
 
 ## Mapear campos do CRM (mapeamento de entrada)
 
-Depois que o CRM estiver conectado, selecione **[!UICONTROL Gerenciar]** para a conexão e abra o **[!UICONTROL Mapeamento de entrada]**. O mapeamento de entrada controla quais campos do CRM o Qualificador de Vendas extrai para o aplicativo.
+Depois que o CRM estiver conectado, selecione **[!UICONTROL Gerenciar]** para a conexão e abra o **[!UICONTROL Mapeamento de entrada]**. O mapeamento de entrada controla quais campos do CRM o Sales Qualifier extrai para o aplicativo.
 
 1. Selecione **[!UICONTROL Adicionar seção]**.
 1. Insira um nome e uma descrição de seção.
@@ -70,7 +67,7 @@ Os campos mapeados aparecem nas áreas correspondentes do Sales Qualifier:
 
 1. Em **[!UICONTROL Conexões do CRM]**, selecione **[!UICONTROL Gerenciar]** para o CRM conectado.
 1. Abra **[!UICONTROL Mapeamento de saída]**.
-1. Ative a **[!UICONTROL Sincronização de atividade]** para sincronizar atividades de alcance da Sales Qualifier com o CRM e a Marketo. As atividades de email enviadas, abertas, clicadas e respondidas incluem o nome do Plano de Envolvimento.
+1. Ative a **[!UICONTROL Sincronização de atividade]** para sincronizar atividades de alcance da Sales Qualifier com o CRM e a Marketo. As atividades de email enviado, aberto, clicado e respondido incluem o nome do Fluxo de trabalho de saída.
 
 Quando a sincronização de atividades está desativada, o Sales Qualifier continua a usar dados de entrada do CRM, mas não sincroniza atividades de alcance para o CRM ou o Marketo.
 

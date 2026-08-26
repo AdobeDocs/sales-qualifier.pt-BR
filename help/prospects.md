@@ -4,16 +4,12 @@ description: Saiba como criar, filtrar e revisar sua lista de clientes potenciai
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
-source-wordcount: 535
+source-wordcount: 550
 ht-degree: 2%
 
 ---
@@ -27,6 +23,7 @@ Selecione **[!UICONTROL Clientes potenciais]** na navegação à esquerda para v
 
 * **[!UICONTROL Clientes Potenciais]** — Clientes Potenciais atribuídos a você no CRM conectado.
 * **[!UICONTROL Contatos]** — Contatos atribuídos a você no CRM conectado.
+* **[!UICONTROL Destaques de Marketing]**—Clientes potenciais com atividade de Marketo ao vivo, como aberturas ou cliques de email.
 * **[!UICONTROL Lista de pessoas]** — Clientes potenciais que você importa ou adiciona manualmente.
 
 ## Criar sua lista de clientes potenciais
@@ -40,6 +37,9 @@ A lista de clientes potenciais combina pessoas de mais de uma fonte:
 Para adicionar prospetos que não vêm do seu CRM:
 
 1. Na página **[!UICONTROL Clientes potenciais]**, selecione **[!UICONTROL Lista de pessoas]**.
+
+   ![Lista de pessoas](assets/prospects-people-list.png){width="800" zoomable="yes"}
+
 1. Selecione **[!UICONTROL + Adicionar pessoas]** e **[!UICONTROL Importar CSV]** ou **[!UICONTROL Adicionar pessoa]**.
 
    * Para uma importação de CSV, carregue um CSV no formato `firstname,email`.
@@ -52,7 +52,7 @@ Para adicionar prospetos que não vêm do seu CRM:
 
 Selecione **[!UICONTROL Filtro]** para restringir a lista. Você pode filtrar por:
 
-* Status do plano de engajamento
+* Status do fluxo de trabalho de saída
 * Criado por
 * Nome do cargo
 * Conta

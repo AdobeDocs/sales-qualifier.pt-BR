@@ -4,12 +4,9 @@ description: Saiba como processar tarefas de alcance manual e revisar clientes e
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 900
 ht-degree: 0%
@@ -19,7 +16,7 @@ ht-degree: 0%
 
 # Tarefas
 
-Use **[!UICONTROL Tarefas]** para concluir as ações geradas pelos Planos de Envolvimento. Selecione uma tarefa, execute uma ação, marque a tarefa como concluída e continue para a próxima tarefa sem sair da página.
+Use **[!UICONTROL Tarefas]** para concluir as ações geradas por Fluxos de Trabalho de Saída. Selecione uma tarefa, execute uma ação, marque a tarefa como concluída e continue para a próxima tarefa sem sair da página.
 
 Na navegação à esquerda, vá para **[!UICONTROL Atividades]** > **[!UICONTROL Tarefas]**.
 
@@ -27,8 +24,8 @@ Na navegação à esquerda, vá para **[!UICONTROL Atividades]** > **[!UICONTROL
 
 A página tem duas guias:
 
-* **[!UICONTROL Tarefas manuais]**—Telefonemas, LinkedIn InMails e revisões de email para clientes potenciais que estão inscritos em um Plano de Envolvimento.
-* **[!UICONTROL Sugestões do agente]** — Clientes potenciais que correspondem aos critérios de direcionamento de um Plano de Envolvimento e são recomendados para inscrição.
+* **[!UICONTROL Tarefas manuais]**—Telefonemas, LinkedIn InMails e revisões de email para clientes potenciais inscritos em um Fluxo de Trabalho de Saída.
+* **[!UICONTROL Sugestões de agente]** — Clientes potenciais que correspondem a um critério de direcionamento do Fluxo de Trabalho de Saída e são recomendados para inscrição.
 
 Cada guia tem seus próprios filtros, opções de classificação e layout de dois painéis. A lista de tarefas aparece à esquerda e o painel de trabalho aparece à direita. Selecionar uma tarefa carrega seus detalhes no painel de trabalho. Quando você conclui uma tarefa, a próxima tarefa é selecionada automaticamente.
 
@@ -36,7 +33,7 @@ Cada guia tem seus próprios filtros, opções de classificação e layout de do
 
 ### Tipos de tarefa
 
-As tarefas manuais estão vinculadas às etapas do plano de engajamento e são fornecidas em três tipos:
+As tarefas manuais estão vinculadas às etapas do Fluxo de trabalho de saída e têm três tipos:
 
 * **[!UICONTROL Telefonema]** — Criado quando uma cadência atinge uma etapa de telefonema. O painel de trabalho mostra o número de telefone do cliente potencial e, quando disponível, um script de chamada gerado por IA.
 
@@ -49,7 +46,7 @@ As tarefas manuais estão vinculadas às etapas do plano de engajamento e são f
 Para uma tarefa **[!UICONTROL Telefonema]** ou **[!UICONTROL LinkedIn InMail]**, o painel de trabalho contém:
 
 * **[!UICONTROL Prospecto]** — O nome, o link de email e o número de telefone do cliente potencial, quando aplicável.
-* **[!UICONTROL Plano de Envolvimento]** — O nome do Plano de Envolvimento vinculado, a data de vencimento e o indicador de salto automático, quando aplicável.
+* **[!UICONTROL Fluxo de Trabalho de Saída]** — O nome do Fluxo de Trabalho de Saída vinculado, a data de vencimento e o indicador de salto automático, quando aplicável.
 * **Conteúdo da tarefa** — O script de chamada ou o conteúdo do InMail.
 * **[!UICONTROL Notas]** — As notas são salvas automaticamente quando outra tarefa é selecionada. Não é possível editar notas depois que uma tarefa é concluída, ignorada ou cancelada.
 
@@ -62,7 +59,7 @@ Para uma tarefa **[!UICONTROL Telefonema]**, selecione **[!UICONTROL Gerar scrip
 Duas ações estão disponíveis no cabeçalho do painel de trabalho:
 
 * **[!UICONTROL Marcar como concluído]**—Use esta ação depois de fazer a chamada, enviar o InMail ou revisar os emails. A fila avança para a próxima tarefa.
-* **[!UICONTROL Ignorar]** — Use esta ação quando não puder concluir a etapa, mas quiser manter o cliente potencial no Plano de Envolvimento. O cliente potencial avança para a próxima etapa de cadência.
+* **[!UICONTROL Ignorar]** — Use esta ação quando não puder concluir a etapa, mas quiser manter o cliente potencial no Fluxo de Trabalho de Saída. O cliente potencial avança para a próxima etapa de cadência.
 
 As tarefas de Telefonema e InMail do LinkedIn podem ser ignoradas automaticamente se permanecerem abertas além do limite configurado. Um salto automático avança o cliente potencial pela cadência e não afeta os pontos de contato de email agendados.
 
@@ -74,9 +71,9 @@ A barra de ferramentas acima da lista controla quais tarefas são exibidas e em 
   * **[!UICONTROL Status]**—**[!UICONTROL Atual]**, **[!UICONTROL Futuro]**, **[!UICONTROL Vencido]**, **[!UICONTROL Concluído]**, **[!UICONTROL Cancelado]**, **[!UICONTROL Ignorado]**.
   * **[!UICONTROL Tipo de tarefa]**—**[!UICONTROL Email Review]**, **[!UICONTROL LinkedIn InMail]**, **[!UICONTROL Telefonema]**.
   * **[!UICONTROL Data de vencimento]**.
-  * **[!UICONTROL Plano de Envolvimento]** — Uma lista pesquisável de seus Planos de Envolvimento.
+  * **[!UICONTROL Fluxo de Trabalho de Saída]** — Uma lista pesquisável de seus Fluxos de Trabalho de Saída.
 * **[!UICONTROL Classificar]** — Classificar por data de vencimento ou data de criação. A ordem de classificação também determina a ordem em que a fila avança.
-* **[!UICONTROL Pesquisar tarefas]** — Localize tarefas por nome de cliente potencial, nome de empresa ou plano de compromisso. A pesquisa se aplica com filtros ativos.
+* **[!UICONTROL Pesquisar tarefas]** — Localize tarefas por nome de cliente potencial, nome de empresa ou Fluxo de Trabalho de Saída. A pesquisa se aplica com filtros ativos.
 
 Filtros ativos aparecem como chips abaixo da barra de ferramentas. Selecione **[!UICONTROL Limpar tudo]** para redefini-los.
 
@@ -90,14 +87,14 @@ Cada tarefa mostra seu status atual:
 | **[!UICONTROL Próximos]** | A etapa anterior está concluída, mas a data de vencimento está no futuro. Você pode agir cedo se o momento estiver certo. |
 | **[!UICONTROL Vencido]** | Ultrapassou a data de vencimento e ainda não foi concluído. A tarefa está sinalizada para atenção. |
 | **[!UICONTROL Concluído]** | Você concluiu a ação e marcou a tarefa como concluída. |
-| **[!UICONTROL Ignorado]** | Você ignorou a etapa ou ela ignorou automaticamente. A perspectiva avança no Plano de Envolvimento. |
-| **[!UICONTROL Cancelado]** | O sistema cancelou a tarefa devido a uma alteração no Plano de Envolvimento. |
+| **[!UICONTROL Ignorado]** | Você ignorou a etapa ou ela ignorou automaticamente. O cliente potencial avança no Fluxo de trabalho de saída. |
+| **[!UICONTROL Cancelado]** | O sistema cancelou a tarefa devido a uma alteração no Fluxo de trabalho de saída. |
 
 As tarefas concluídas, ignoradas e canceladas são finais. Suas ações não estão mais disponíveis e suas notas são somente leitura.
 
 ## Sugestões do agente
 
-A guia **[!UICONTROL Sugestões do agente]** lista os clientes potenciais que correspondem aos critérios de direcionamento de um Plano de Envolvimento e são recomendados para inscrição. Para ativar as recomendações, consulte [Fluxos de Trabalho de Saída](outbound-workflows.md).
+A guia **[!UICONTROL Sugestões do agente]** lista os clientes potenciais que correspondem aos critérios de direcionamento de um Fluxo de Trabalho de Saída e são recomendados para inscrição. Para ativar as recomendações, consulte [Fluxos de Trabalho de Saída](outbound-workflows.md).
 
 Selecione uma sugestão para revisá-la no painel de trabalho:
 
@@ -106,14 +103,14 @@ Selecione uma sugestão para revisá-la no painel de trabalho:
 
 Duas ações estão disponíveis:
 
-* **[!UICONTROL Revisar clientes potenciais]**—Abra o Plano de Envolvimento para revisar e inscrever clientes potenciais recomendados. Consulte [Adicionar clientes potenciais e iniciar geração de email](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
+* **[!UICONTROL Revisar prospetos]**—Abra o Fluxo de Trabalho de Saída para revisar e inscrever prospetos recomendados. Consulte [Adicionar clientes potenciais e iniciar geração de email](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * **[!UICONTROL Marcar como concluída]**—Descarte a sugestão depois de revisá-la.
 
-A guia **[!UICONTROL Sugestões do agente]** inclui os filtros de status **[!UICONTROL Atual]**, **[!UICONTROL Concluído]** e **[!UICONTROL Cancelado]**, um filtro de Plano de Envolvimento e a classificação por data de criação.
+A guia **[!UICONTROL Sugestões do agente]** inclui os filtros de status **[!UICONTROL Atual]**, **[!UICONTROL Concluído]** e **[!UICONTROL Cancelado]**, um filtro de Fluxo de Trabalho de Saída e a classificação por data de criação.
 
-## Concluir tarefas de um plano de envolvimento
+## Concluir tarefas de um fluxo de trabalho de saída
 
-Na exibição **[!UICONTROL Clientes Potenciais Envolvidos]** de um Plano de Envolvimento, um ponto de contato manual fornece as mesmas opções de **[!UICONTROL Marcar como concluído]**, **[!UICONTROL Ignorar]** e anotações. Concluir uma tarefa lá também atualiza seu status na página **[!UICONTROL Tarefas]**. Consulte [Fluxos de Trabalho de Saída](outbound-workflows.md).
+Na exibição **[!UICONTROL Clientes Potenciais Envolvidos]** de um Fluxo de Trabalho de Saída, um ponto de contato manual fornece as mesmas opções de **[!UICONTROL Marcar como concluído]**, **[!UICONTROL Ignorar]** e anotações. Concluir uma tarefa lá também atualiza seu status na página **[!UICONTROL Tarefas]**. Consulte [Fluxos de Trabalho de Saída](outbound-workflows.md).
 
 ## Estados vazios
 

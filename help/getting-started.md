@@ -32,7 +32,7 @@ Depois que a Adobe provisionar o Sales Qualifier para sua organização, um admi
 
 Os grupos de usuários no Adobe Admin Console são usados para controlar o acesso ao Sales Qualifier. Ambos os grupos devem ser criados antes que os usuários possam entrar.
 
-Consulte a [documentação do Adobe Admin Console](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) para obter informações sobre a configuração de grupos.
+Consulte a [documentação do Adobe Admin Console](https://helpx.adobe.com/br/business/enterprise/users/users-and-groups/user-groups.html) para obter informações sobre a configuração de grupos.
 
 >[!PREREQUISITES]
 >

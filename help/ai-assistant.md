@@ -12,7 +12,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 401
 ht-degree: 1%
@@ -26,7 +26,7 @@ O AI Chat responde a perguntas em linguagem natural com base no contexto de vend
 
 ## Abrir o bate-papo de IA
 
-Selecione o botão flutuante **[!UICONTROL Bate-papo de IA]** para abrir o painel de chat. O painel é aberto ao lado da página atual, para que você possa manter um cliente potencial, uma conta ou um plano de envolvimento na exibição. Arraste a borda do painel para redimensioná-lo. Para fechar o painel, selecione novamente **[!UICONTROL Chat de IA]**.
+Selecione o botão flutuante **[!UICONTROL Bate-papo de IA]** para abrir o painel de chat. O painel é aberto ao lado da página atual, para que você possa manter um cliente potencial, uma conta ou um Fluxo de trabalho de saída no modo de exibição. Arraste a borda do painel para redimensioná-lo. Para fechar o painel, selecione novamente **[!UICONTROL Chat de IA]**.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Use o AI Chat para estas tarefas:
 * **Pesquisar e resumir**: solicitar um resumo de uma conta, um grupo de compras ou o compromisso recente de um cliente potencial.
 * **Posicionamento da compilação**: peça ao assistente para posicionar sua solução para uma conta específica antes de uma reunião.
 * **Rascunho e refine o alcance**: peça para escrever ou reescrever um email. Especifique o tom, o comprimento, o idioma e se os emojis devem ser incluídos.
-* **Obter recomendações**: pergunte a quais clientes potenciais ou contas priorizar, ou solicite uma meta ou cadência para um novo Plano de Envolvimento.
+* **Obter recomendações**: pergunte a quais clientes potenciais ou contas priorizar, ou solicite uma meta ou cadência para um novo Fluxo de Trabalho de Saída.
 * **Localizar detalhes do contato**: peça ao assistente para enriquecer um cliente potencial com mais informações de contato e plano de fundo.
 
 ## Respostas terrestres no seu manual

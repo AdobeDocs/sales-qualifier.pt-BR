@@ -6,7 +6,7 @@ role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 321
 ht-degree: 0%
@@ -59,7 +59,7 @@ A guia **[!UICONTROL Tarefas]** informa sobre alcance manual:
 
 ## Desempenho da campanha
 
-**[!UICONTROL Desempenho da campanha]** relata os resultados de saída por campanha do Plano de Envolvimento:
+**[!UICONTROL Desempenho da campanha]** relata os resultados de saída por campanha de Fluxo de Trabalho de Saída:
 
 * **Blocos de KPI**: clientes potenciais ativos, taxa de abertura, taxa de cliques, taxa de resposta e reuniões reservadas.
 * **Gráfico de tendências de métricas de campanha**: KPIs de campanha durante o período selecionado.

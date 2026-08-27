@@ -10,7 +10,7 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 632
 ht-degree: 0%
@@ -67,7 +67,7 @@ Use os botões abaixo da visão geral para alternar entre visualizações de con
 
 Na exibição **[!UICONTROL Membros Principais]**, execute uma destas ações para um contato:
 
-* **[!UICONTROL Adicionar ao Plano de Envolvimento]**—Inscreva o contato em um [Plano de Envolvimento](outbound-workflows.md).
+* **[!UICONTROL Adicionar ao Fluxo de Trabalho de Saída]**—Inscreva o contato em um [Fluxo de Trabalho de Saída](outbound-workflows.md).
 * **[!UICONTROL Adicionar à campanha do Marketo]**—Acione uma campanha [!DNL Marketo] para o contato.
 
 ## Pesquisar a conta
@@ -86,7 +86,7 @@ A inteligência de conta é mais valiosa quando molda o que você envia:
 
 * Referencie uma notícia recente ou um sinal de pesquisa para tornar sua abertura relevante, em vez de usar uma apresentação genérica.
 * Verifique as oportunidades abertas e o valor do pipeline para decidir se prioriza a conta.
-* Use **[!UICONTROL Membros Principais]** para identificar com quem contatar e inscreva-os em um Plano de Envolvimento.
+* Use **[!UICONTROL Membros Principais]** para identificar com quem contatar e, em seguida, inscreva-os em um Fluxo de Trabalho de Saída.
 * Peça ao [Bate-papo de IA](ai-assistant.md) para desenvolver o posicionamento para a conta antes de uma chamada.
 
 >[!MORELIKETHIS]

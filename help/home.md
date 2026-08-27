@@ -12,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
 workflow-type: tm+mt
 source-wordcount: 412
 ht-degree: 22%
@@ -29,7 +29,7 @@ Os BDRs podem usar os plug-ins de navegador e email para acessar a business inte
 ## O que você pode fazer no Sales Qualifier
 
 * **Priorizar clientes potenciais e contas** com resumos de atividades gerados por IA e priorização baseada em sinais.
-* **Crie Planos de Envolvimento orientados por metas** nos quais a IA propõe uma cadência e rascunhos de emails personalizados para cada cliente potencial.
+* **Crie fluxos de trabalho de saída orientados por metas** nos quais a IA proponha uma cadência e rascunhos de emails personalizados para cada cliente potencial.
 * **Processar alcance em uma fila** para chamadas telefônicas, LinkedIn InMails e revisões de email.
 * **Reserve reuniões automaticamente** conectando seu calendário e inserindo um link de reserva pessoal em seu calendário.
 * **Informe o alcance da IA com seus próprios materiais** criando um manual no Centro de Conhecimento.

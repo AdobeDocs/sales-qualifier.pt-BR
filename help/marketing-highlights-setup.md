@@ -3,18 +3,12 @@ title: Configurar destaques de marketing
 description: Saiba como conectar o Marketo ao Sales Qualifier para que os representantes possam visualizar e filtrar prospetos por atividade em tempo real do Marketo em Destaques de marketing.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 3%
 
 ---
@@ -22,7 +16,7 @@ ht-degree: 3%
 
 # Configurar destaques de marketing
 
-Os Destaques de Marketing mostram a atividade [!DNL Marketo] ativa de cada cliente potencial, como aberturas e cliques de email, visitas da Web e preenchimentos de formulário, na guia **[!UICONTROL Destaques de Marketing]** de um cliente potencial no Sales Qualifier. Este artigo explica como conectar sua instância [!DNL Marketo] para que a atividade flua para dentro.
+Destaques de marketing mostra a atividade [!DNL Marketo] ativa de cada cliente potencial, como aberturas e cliques de email, visitas à Web e preenchimentos de formulário. Este artigo explica como conectar sua instância [!DNL Marketo] para que a atividade flua para dentro.
 
 >[!IMPORTANT]
 >

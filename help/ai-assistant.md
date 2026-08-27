@@ -4,17 +4,13 @@ description: Saiba como usar o Bate-papo de IA no Sales Qualifier para pesquisar
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: 404
 ht-degree: 1%
 
 ---
@@ -23,6 +19,8 @@ ht-degree: 1%
 # Chat de IA
 
 O AI Chat responde a perguntas em linguagem natural com base no contexto de vendas. Use-a para pesquisar uma conta, preparar uma chamada, rascunhar um alcance e priorizar seu trabalho sem sair do Sales Qualifier.
+
+![Botão de bate-papo de IA](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## Abrir o bate-papo de IA
 
@@ -36,7 +34,7 @@ Selecione o botão flutuante **[!UICONTROL Bate-papo de IA]** para abrir o paine
 
 O AI Chat pode usar estas fontes:
 
-* O manual da sua organização no [Centro de Conhecimento](knowledge-center.md).
+* O manual da sua organização no [Centro de Conhecimento](admin-settings.md#knowledge-center).
 * Seu CRM conectado, incluindo clientes potenciais, contatos, contas, oportunidades e atividades.
 * [!DNL Marketo] dados de atividade e envolvimento.
 * Pesquisa de contas e notícias recentes reunidas pela Account Qualification Agent.
@@ -54,7 +52,7 @@ Use o AI Chat para estas tarefas:
 
 ## Respostas terrestres no seu manual
 
-Para usar o manual do [Centro de Conhecimento](knowledge-center.md), consulte o Centro de Conhecimento na sua pergunta. Por exemplo:
+Para usar o manual do [Centro de Conhecimento](admin-settings.md#knowledge-center), consulte o Centro de Conhecimento na sua pergunta. Por exemplo:
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -76,6 +74,6 @@ O uso do Bate-papo de IA pela sua organização é regido pelos termos da IA ger
 
 >[!MORELIKETHIS]
 >
->* [Centro de conhecimento](knowledge-center.md)
+>* [Centro de conhecimento](admin-settings.md#knowledge-center)
 >* [Contas](accounts.md)
 >* [Fluxos de Trabalho de Saída](outbound-workflows.md)

@@ -4,19 +4,12 @@ description: Saiba como concluir a configuração de administrador única para o
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 08dd05e1d13b501d43d457e6217a43aaabdb1d0d
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4bid: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: 1015
 ht-degree: 0%
 
 ---
@@ -30,7 +23,9 @@ Depois que a Adobe provisionar o Sales Qualifier para sua organização, um admi
 
 ## Configurar grupos de usuários
 
-Dois grupos de usuários no Adobe Admin Console controlam o acesso ao Sales Qualifier. Crie ambos os grupos antes que os usuários entrem.
+Os grupos de usuários no Adobe Admin Console são usados para controlar o acesso ao Sales Qualifier. Ambos os grupos devem ser criados antes que os usuários possam entrar.
+
+Consulte a [documentação do Adobe Admin Console](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html) para obter informações sobre a configuração de grupos.
 
 >[!PREREQUISITES]
 >
@@ -43,6 +38,8 @@ Dois grupos de usuários no Adobe Admin Console controlam o acesso ao Sales Qual
 
 Os usuários devem pertencer ao grupo de usuários `Sales Qualifier` para acessar o aplicativo.
 
+Essas etapas são executadas no Adobe Admin Console.
+
 1. No alternador de aplicativos de nove pontos, selecione **[!UICONTROL Admin Console]**.
 1. Selecione **[!UICONTROL Usuários]** > **[!UICONTROL Grupos de usuários]** > **[!UICONTROL Novo grupo de usuários]**.
 1. Digite `Sales Qualifier` como o nome do grupo e selecione **[!UICONTROL Salvar]**.
@@ -53,18 +50,16 @@ Os usuários devem pertencer ao grupo de usuários `Sales Qualifier` para acessa
 
 ### Administradores do Sales Qualifier
 
-Os administradores que configuram conexões do CRM, o [Centro de Conhecimento](knowledge-center.md) e as configurações de recusa de email global também devem pertencer ao grupo de usuários `Sales Qualifier Admins`.
+Os administradores que configuram conexões do CRM, o [Centro de Conhecimento](admin-settings.md#knowledge-center) e as configurações de recusa de email global também devem pertencer ao grupo de usuários `Sales Qualifier Admins`.
 
 1. No Adobe Admin Console, selecione **[!UICONTROL Usuários]** > **[!UICONTROL Grupos de usuários]** > **[!UICONTROL Novo grupo de usuários]**.
 1. Digite `Sales Qualifier Admins` como o nome do grupo e selecione **[!UICONTROL Salvar]**.
 1. Abra **[!UICONTROL Usuários]**, selecione **[!UICONTROL Adicionar usuários]** e adicione os administradores.
 1. Confirme se cada administrador também é membro do grupo `Sales Qualifier`.
 
-A associação em ambos os grupos torna as **[!UICONTROL Configurações de Administrador]** visíveis em **[!UICONTROL Administração]** na navegação à esquerda. Os usuários padrão trabalham com os campos, filtros e manuais que os administradores configuram. O rodapé de recusa configurado se aplica aos emails de saída automaticamente. Usuários padrão não podem alterar essas configurações. Consulte [Funções e permissões de usuário](user-roles-permissions.md) para obter detalhes.
+A associação em ambos os grupos torna as **[!UICONTROL Configurações de Administrador]** visíveis em **[!UICONTROL Administração]** na navegação à esquerda. Os usuários padrão trabalham com os campos, filtros e manuais que os administradores configuram. O rodapé de recusa configurado se aplica aos emails de saída automaticamente. Usuários padrão não podem alterar essas configurações.
 
->[!NOTE]
->
->Os nomes dos grupos de usuários devem corresponder exatamente como mostrado nas etapas anteriores.
+Os nomes dos grupos de usuários devem corresponder exatamente como mostrado nas etapas anteriores.
 
 Você também pode criar um grupo `Sales Qualifier BDR managers` opcional. Os membros deste grupo podem acessar relatórios de desempenho de email.
 
@@ -116,9 +111,7 @@ Um administrador do sistema do Salesforce cria um aplicativo cliente externo (ta
    * URL de retorno de chamada
    * URL da instância do Salesforce
 
->[!IMPORTANT]
->
->Não envie segredos do cliente por email. Use o canal seguro aprovado da sua organização para compartilhar credenciais com quem quer que as insira no Sales Qualifier.
+As etapas podem ser um pouco diferentes das descritas aqui. Consulte a [documentação do Salesforce](https://help.salesforce.com/s/) para obter mais informações.
 
 ### Encontrar o URL da instância do Salesforce
 
@@ -154,9 +147,9 @@ Um administrador do Microsoft Dynamics 365 ou Azure registra um aplicativo e o a
 1. Na navegação à esquerda, expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Configurações de Administração]**.
 1. Selecione **[!UICONTROL Conexões do CRM]** em **[!UICONTROL Integrações]**.
 
-   As versões anteriores da interface podem mostrar esta área como **[!UICONTROL Integrações]** em **[!UICONTROL Administração]**.
-
    A página exibe cartões para o Salesforce e o Microsoft Dynamics. Uma conexão inativa mostra **[!UICONTROL Conectar]**. Uma conexão configurada mostra **[!UICONTROL Conectado]** e **[!UICONTROL Gerenciar]**.
+
+   ![Credenciais do Salesforce](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
 1. Selecione **[!UICONTROL Conectar]** para o CRM que você usa.
 1. Insira as credenciais e a URL da instância do administrador do CRM.
@@ -164,18 +157,9 @@ Um administrador do Microsoft Dynamics 365 ou Azure registra um aplicativo e o a
 
 ### Importar campos do CRM
 
-Depois de conectar o CRM, configure o mapeamento de entrada para escolher quais campos do CRM aparecem no Sales Qualifier.
+Depois de conectar o CRM, configure o mapeamento de entrada para determinar quais campos do CRM aparecem no Sales Qualifier. No cartão do CRM conectado, selecione **[!UICONTROL Gerenciar]** para abrir o **[!UICONTROL Mapeamento de entrada]** e adicione uma seção para cada tipo de entidade cujos campos você deseja importar.
 
-1. No cartão do CRM conectado, selecione **[!UICONTROL Gerenciar]** para abrir o **[!UICONTROL Mapeamento de entrada]**.
-1. Selecione **[!UICONTROL Adicionar seção]**.
-1. Insira um nome e uma descrição de seção.
-1. Selecione o tipo de entidade. **[!UICONTROL Clientes potenciais]** está selecionado por padrão. **[!UICONTROL Contatos]**, **[!UICONTROL Contas]** e **[!UICONTROL Oportunidades]** também estão disponíveis.
-1. Selecione os campos do CRM que serão importados.
-1. Visualize a seção e selecione **[!UICONTROL Adicionar]**.
-
-Campos de cliente potencial aparecem na guia **[!UICONTROL Pessoa]**, campos de conta aparecem na guia **[!UICONTROL Conta]** e campos de oportunidade aparecem na seção **[!UICONTROL Oportunidade de Conta]**. Ative **[!UICONTROL Filtrável]** para cada campo mapeado que os representantes precisam como filtro.
-
-Consulte [Integrações](integrations.md#map-crm-fields-inbound-mapping) para gerenciar o mapeamento e a sincronização de campos.
+Consulte [Mapear campos do CRM (mapeamento de entrada)](integrations.md#map-crm-fields-inbound-mapping) para obter as etapas completas, incluindo como disponibilizar campos importados como filtros.
 
 ## Próximas etapas
 
@@ -183,4 +167,3 @@ Consulte [Integrações](integrations.md#map-crm-fields-inbound-mapping) para ge
 >
 >* [Clientes Potenciais](prospects.md)
 >* [Fluxos de Trabalho de Saída](outbound-workflows.md)
->* [Funções e permissões do usuário](user-roles-permissions.md)

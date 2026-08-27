@@ -4,11 +4,10 @@ description: Saiba como revisar os relatórios de Desempenho da organização e 
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 321
+source-wordcount: 334
 ht-degree: 0%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 Na navegação à esquerda, selecione **[!UICONTROL Desempenho de saída]** para rastrear a atividade de saída e os resultados em sua equipe. O painel tem duas exibições: **[!UICONTROL Desempenho da Organização]** e **[!UICONTROL Desempenho da Campanha]**.
 
-[Desempenho de saída](assets/outbound-performance.png){width="800" zoomable="yes"}
+![Desempenho de saída](assets/outbound-performance.png){width="800" zoomable="yes"}
 
 ## Filtro e período de tempo
 
@@ -33,7 +32,7 @@ O **[!UICONTROL Desempenho da Organização]** relata a atividade de saída e os
 
 ### Guia Visão geral
 
-A guia **[!UICONTROL Visão geral]** resume rapidamente os resultados de saída:
+A guia **[!UICONTROL Visão geral]** resume rapidamente os resultados de saída. Clique em qualquer uma das caixas para exibir o gráfico com essas informações.
 
 * **Blocos**: pipeline, envolvimento de email e atividade manual, cada um com uma alteração de tendência em relação ao período anterior.
 * **Gráfico de tendência de desempenho**: desempenho de saída durante o período selecionado.

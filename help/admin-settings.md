@@ -10,9 +10,9 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 670
+source-wordcount: 856
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Para configurar conexões do CRM, mapeamento de campos e sincronização de ativ
 
 >[!IMPORTANT]
 >
->O acesso a **[!UICONTROL Configurações de Administrador]** requer associação aos grupos de usuários `Sales Qualifier` e `Sales Qualifier Admins`. Consulte [Funções e permissões de usuário](user-roles-permissions.md).
+>O acesso a **[!UICONTROL Configurações de Administrador]** requer associação aos grupos de usuários `Sales Qualifier` e `Sales Qualifier Admins`.
 
 ## MCP do CRM e o plug-in incorporado
 
@@ -74,6 +74,31 @@ Os campos mapeados aparecem nas áreas correspondentes do Sales Qualifier:
 
 Quando a sincronização de atividades está desativada, o Sales Qualifier continua a usar dados de entrada do CRM, mas não sincroniza atividades de alcance para o CRM ou o Marketo.
 
+## Criar um manual da Central de conhecimento {#knowledge-center}
+
+O **[!UICONTROL Centro de Conhecimento]** dá à Account Qualification Agent (AQA) acesso aos seus materiais de vendas. A Sales Qualifier usa esses materiais para gerar pesquisas, insights de qualificação e alcance que refletem como sua organização vende. Somente administradores podem criar e gerenciar o manual.
+
+![Centro de conhecimento](assets/knowledge-center.png){width="800" zoomable="yes"}
+
+1. Na navegação à esquerda, expanda **[!UICONTROL Administração]**, selecione **[!UICONTROL Configurações de Administração]** e selecione **[!UICONTROL Centro de Conhecimento]**
+1. u
+1. Defina o **[!UICONTROL Nome da empresa]** e a **[!UICONTROL URL da empresa]** que a Sales Qualifier usa para pesquisar sua empresa e rascunhar emails.
+1. Faça upload das ações de vendas, perfis de clientes ideais (ICPs), guias de posicionamento e outros materiais de apoio de vendas nos formatos PDF, PPTX ou DOCX.
+1. Selecione **[!UICONTROL Criar Manual]**.
+
+Cada documento carregado exibe seu status de processamento, como **[!UICONTROL Pronto]**, e quando foi atualizado pela última vez.
+
+>[!NOTE]
+>
+>Um manual pode levar até 24 horas para ser processado.
+
+Quando o manual estiver pronto, os representantes poderão usá-lo em dois lugares:
+
+* **Prompts de email de saída** — Em um prompt de ponto de contato, nomeie o documento e descreva o contexto a ser usado. Por exemplo, digite `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`. Consulte [Gerar e analisar pontos de contato](outbound-workflows.md#step-3-generate-and-review-touchpoints).
+* **Chat de IA**: consulte o Centro de Conhecimento em sua pergunta. Por exemplo, digite `From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`. Consulte [Chat de IA](ai-assistant.md).
+
+Em ambos os casos, o conteúdo gerado reflete a mensagem no seu manual em vez da pesquisa genérica.
+
 ## Configurar opção de não participação de email global
 
 1. Na navegação à esquerda, expanda **[!UICONTROL Administração]** e selecione **[!UICONTROL Configurações de Administração]**.
@@ -113,5 +138,4 @@ ORDER BY LastModifiedDate DESC
 >[!MORELIKETHIS]
 >
 >* [Introdução](getting-started.md)
->* [Funções e permissões do usuário](user-roles-permissions.md)
 >* [Clientes Potenciais](prospects.md)

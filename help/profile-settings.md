@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: e7de3a1e28cb8268b58f1ab1ec10394035bdfd74
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 375
+source-wordcount: 394
 ht-degree: 3%
 
 ---
@@ -21,14 +21,19 @@ ht-degree: 3%
 
 Na navegação à esquerda, expanda **[!UICONTROL Configuração]** e selecione **[!UICONTROL Configurações de perfil]**. Use essas configurações para gerenciar seus detalhes pessoais, conexão de email, calendário e disponibilidade de chat.
 
+![Configurações de perfil](assets/profile-email-config.png)
+
 ## Configurações de email
 
 Na guia **[!UICONTROL Configurações de email]**, configure suas conexões de email.
 
-* **[!UICONTROL Conexões de email]**—Selecione **[!UICONTROL Conectar ao Outlook]** e siga o processo de entrada da Microsoft. Consulte [Conectar-se ao Outlook](integrations.md#connect-outlook) para obter o acesso que você aprova e o caminho de aprovação do administrador, se necessário.
+* **[!UICONTROL Conexões de email]** — Selecione Microsoft Outlook ou Google e siga o processo de entrada. Consulte [Conectar-se ao Outlook](integrations.md#connect-outlook) para obter o acesso que você aprova e o caminho de aprovação do administrador, se necessário.
 * **[!UICONTROL Assinatura de email]** — Adicione ou atualize a assinatura usada nos emails gerados. Inclua o link da sua [reserva de reunião](outbound-workflows.md#meeting-booking) para que os clientes potenciais possam agendar horários com você.
+* **[!UICONTROL Link de reserva da reunião]** - Envie um convite de reunião dentro de seus emails. Obtém a URL da reunião.
 
 ### Contexto de redação do email
+
+![Contexto do email](assets/profile-email-instructions.png)
 
 Use o **[!UICONTROL Contexto de rascunho de email]** para definir o tom, a estrutura e o estilo do email, de forma que os emails sejam consistentes.
 

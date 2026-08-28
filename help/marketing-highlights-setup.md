@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 675
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 # Configurar destaques de marketing
 
-Os Destaques de Marketing mostram a atividade [!DNL Marketo] ativa de cada cliente potencial, como aberturas e cliques de email, visitas da Web e preenchimentos de formulário, na guia **[!UICONTROL Destaques de Marketing]** de um cliente potencial no Sales Qualifier. Este artigo explica como conectar sua instância [!DNL Marketo] para que a atividade flua para dentro.
+Destaques de marketing mostra a atividade [!DNL Marketo] ativa de cada cliente potencial, como aberturas e cliques de email, visitas à Web e preenchimentos de formulário. Este artigo explica como conectar sua instância [!DNL Marketo] para que a atividade flua para dentro.
 
 >[!IMPORTANT]
 >

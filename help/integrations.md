@@ -12,9 +12,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
 workflow-type: tm+mt
-source-wordcount: 1379
+source-wordcount: 1377
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Este artigo explica como conectar o Outlook, gerenciar uma conexão de CRM, mape
 
 >[!IMPORTANT]
 >
->A conexão do Outlook é por representante. As configurações de CRM e conformidade descritas posteriormente neste artigo se aplicam a toda a organização. Para acessar essas configurações em toda a organização, você deve pertencer aos grupos de usuários `Sales Qualifier` e `Sales Qualifier Admins`. Os usuários padrão podem usar os dados e filtros do CRM configurados, mas não podem alterar as configurações. Consulte [Funções e permissões de usuário](user-roles-permissions.md).
+>A conexão do Outlook é por representante. As configurações de CRM e conformidade descritas posteriormente neste artigo se aplicam a toda a organização. Para acessar essas configurações em toda a organização, você deve pertencer aos grupos de usuários `Sales Qualifier` e `Sales Qualifier Admins`. Os usuários padrão podem usar os dados e filtros do CRM configurados, mas não podem alterar as configurações.
 
 ## Conectar o Outlook
 
@@ -67,7 +67,7 @@ Na navegação à esquerda, expanda **[!UICONTROL Administração]** e selecione
 | **[!UICONTROL Integrações]** | **[!UICONTROL Conexões do CRM]**, **[!UICONTROL Centro de Conhecimento]** |
 | **[!UICONTROL Conformidade]** | **[!UICONTROL Configurações de email]** |
 
-Para o Knowledge Center, consulte [Knowledge Center](knowledge-center.md).
+Para o Centro de Conhecimento, consulte [Criar um manual do Centro de Conhecimento](admin-settings.md#knowledge-center).
 
 ## Gerenciar conexões do CRM
 
@@ -96,7 +96,7 @@ Um cartão não configurado mostra **[!UICONTROL Conectar]**. Um cartão configu
 
    Insira a **[!UICONTROL ID do Cliente (Chave do Consumidor)]**, a **[!UICONTROL URL da Instância]** e o **[!UICONTROL Segredo do Cliente]**. Use o formulário de URL da instância canônica `https://{{mydomain}}.my.salesforce.com`.
 
-   ![conexão com o Salesforce](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+   ![Credenciais do Salesforce](assets/crm-salesforce-config.png){width="800" zoomable="yes"}
 
    >[!TAB Microsoft Dynamics]
 
@@ -125,8 +125,13 @@ Se o Sales Qualifier rejeitar as credenciais, identificará a causa, como creden
 
 O mapeamento de entrada controla quais campos do CRM o Sales Qualifier importa e onde eles aparecem. Os campos são agrupados em seções e cada seção pertence a um tipo de entidade.
 
+![Mapeamento de entrada](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+
 1. No cartão do CRM conectado, selecione **[!UICONTROL Gerenciar]**.
 1. Na guia **[!UICONTROL Mapeamento de entrada]**, selecione **[!UICONTROL Adicionar seção]**.
+
+   ![Adicionar seção](assets/crm-add-section.png){width="800" zoomable="yes"}
+
 1. Na etapa **Selecionar seção**, escolha o tipo de entidade e selecione **[!UICONTROL Avançar]**:
 
    | Entidade | Onde os campos aparecem |
@@ -197,5 +202,4 @@ Seu administrador de CRM prepara o acesso à API no Salesforce ou Dynamics. Em s
 >[!MORELIKETHIS]
 >
 >* [Introdução](getting-started.md)
->* [Funções e permissões do usuário](user-roles-permissions.md)
 >* [Contas](accounts.md)

@@ -10,9 +10,9 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
-source-wordcount: 632
+source-wordcount: 643
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Abrir uma conta do perfil de um cliente potencial associado a ela.
 
 1. Selecione **[!UICONTROL Clientes Potenciais]** na navegação à esquerda e abra um cliente potencial. Consulte [Prospects](prospects.md).
 1. Na página de detalhes do cliente potencial, selecione a guia **[!UICONTROL Conta]**.
+
+![Página de detalhes do cliente potencial com guias de Pessoa e Conta](./assets/account-home.png){width="800" zoomable="yes"}
 
 O Sales Qualifier identifica a conta do registro CRM do cliente potencial. A mesma visualização de conta está disponível em todos os clientes potenciais associados a essa conta. Se o Sales Qualifier não corresponder a uma conta, a guia mostrará _Nenhuma conta encontrada_.
 
@@ -77,6 +79,8 @@ A guia **[!UICONTROL Pesquisa de Conta]** contém três áreas:
 * **[!UICONTROL Categorias de pesquisa]**—Tópicos de pesquisa. Selecione uma categoria para exibir sua pesquisa no painel central.
 * **Conteúdo de pesquisa** — cartões de pesquisa gerados por IA agrupados por categoria. Um cartão pode incluir o domínio de origem e as datas em que o sinal foi detectado pela primeira e última vez.
 * **[!UICONTROL Notícias recentes]**—Notícias atuais sobre a conta, incluindo datas, marcas e links de origem.
+
+![Guia Pesquisa de Conta](./assets/account-detail.png){width="800" zoomable="yes"}
 
 Se não for possível carregar a pesquisa ou as notícias, cada área oferecerá uma ação **[!UICONTROL Recarregar]** para tentar novamente.
 

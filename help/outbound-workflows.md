@@ -13,7 +13,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
 workflow-type: tm+mt
 source-wordcount: 1923
 ht-degree: 0%
@@ -105,7 +105,7 @@ Defina um atraso do ponto de contato em dias, horas e minutos. Defina os dias, h
 
 #### Usar o Centro de conhecimento em prompts
 
-Se sua organização criou um manual do [Centro de Conhecimento](knowledge-center.md), consulte-o no prompt. Nomeie o documento e descreva o contexto a ser usado. Por exemplo, digite `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
+Se sua organização criou um manual do [Centro de Conhecimento](admin-settings.md#knowledge-center), consulte-o no prompt. Nomeie o documento e descreva o contexto a ser usado. Por exemplo, digite `Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`.
 
 Quando a cadência e os prompts estiverem prontos, selecione **[!UICONTROL Próximo: Configurações]**.
 
@@ -245,5 +245,5 @@ Acompanhe os resultados da reserva na página [Desempenho de saída](performance
 >[!MORELIKETHIS]
 >
 >* [Tarefas](tasks.md)
->* [Centro de conhecimento](knowledge-center.md)
+>* [Centro de conhecimento](admin-settings.md#knowledge-center)
 >* [Desempenho de saída](performance.md)

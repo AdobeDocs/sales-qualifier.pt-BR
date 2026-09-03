@@ -10,9 +10,9 @@ feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
 internal-label: Administration
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 856
+source-wordcount: 845
 ht-degree: 0%
 
 ---
@@ -70,9 +70,9 @@ Os campos mapeados aparecem nas áreas correspondentes do Sales Qualifier:
 
 1. Em **[!UICONTROL Conexões do CRM]**, selecione **[!UICONTROL Gerenciar]** para o CRM conectado.
 1. Abra **[!UICONTROL Mapeamento de saída]**.
-1. Ative a **[!UICONTROL Sincronização de atividade]** para sincronizar atividades de alcance da Sales Qualifier com o CRM e a Marketo. As atividades de email enviado, aberto, clicado e respondido incluem o nome do Fluxo de trabalho de saída.
+1. Ative a **[!UICONTROL Sincronização de atividade]** para sincronizar as atividades de alcance da Sales Qualifier com o CRM e a Marketo.
 
-Quando a sincronização de atividades está desativada, o Sales Qualifier continua a usar dados de entrada do CRM, mas não sincroniza atividades de alcance para o CRM ou o Marketo.
+Quando a sincronização de atividades está desativada, o Sales Qualifier continua a usar dados de entrada do CRM, mas não sincroniza atividades de alcance para seu CRM ou Marketo.
 
 ## Criar um manual da Central de conhecimento {#knowledge-center}
 

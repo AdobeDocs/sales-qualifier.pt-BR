@@ -9,9 +9,9 @@ product_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
 workflow-type: tm+mt
-source-wordcount: 900
+source-wordcount: 904
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Use **[!UICONTROL Tarefas]** para concluir as ações geradas por Fluxos de Trabalho de Saída. Selecione uma tarefa, execute uma ação, marque a tarefa como concluída e continue para a próxima tarefa sem sair da página.
 
 Na navegação à esquerda, vá para **[!UICONTROL Atividades]** > **[!UICONTROL Tarefas]**.
+
+![Painel de tarefas](assets/tasks.png)
 
 ## Exibições de tarefa
 
@@ -43,6 +45,8 @@ As tarefas manuais estão vinculadas às etapas do Fluxo de trabalho de saída e
 * **[!UICONTROL LinkedIn InMail]** — Criado quando uma cadência atinge uma etapa do LinkedIn InMail. O painel de trabalho mostra o conteúdo a ser copiado e enviado do LinkedIn. Expanda **[!UICONTROL Razão da IA]** para analisar a razão.
 
 * **[!UICONTROL Revisão de email]**—Criada após o Sales Qualifier gerar emails personalizados de um cliente potencial. Selecione **[!UICONTROL Revisar emails]** para revisar e aprovar os rascunhos antes de o alcance externo começar. Consulte [Revisar e refinar emails gerados](outbound-workflows.md#review-and-refine-generated-emails).
+
+![Revisão de email](assets/tasks-review.png)
 
 ### O painel de trabalho
 

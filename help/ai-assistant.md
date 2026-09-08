@@ -4,17 +4,13 @@ description: Saiba como usar o Bate-papo de IA no Sales Qualifier para pesquisar
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
-product_v2:
-  - id: d98caee2-fd67-486e-9513-36435358ebff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+product_v2: id: d98caee2-fd67-486e-9513-36435358ebff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 404
+source-wordcount: 725
 ht-degree: 1%
 
 ---
@@ -46,13 +42,66 @@ O AI Chat pode usar estas fontes:
 
 ## Usar o bate-papo de IA
 
-Use o AI Chat para estas tarefas:
+Use o AI Chat para estes tipos de tarefas:
 
 * **Pesquisar e resumir**: solicitar um resumo de uma conta, um grupo de compras ou o compromisso recente de um cliente potencial.
 * **Posicionamento da compilação**: peça ao assistente para posicionar sua solução para uma conta específica antes de uma reunião.
 * **Rascunho e refine o alcance**: peça para escrever ou reescrever um email. Especifique o tom, o comprimento, o idioma e se os emojis devem ser incluídos.
 * **Obter recomendações**: pergunte a quais clientes potenciais ou contas priorizar, ou solicite uma meta ou cadência para um novo Fluxo de Trabalho de Saída.
 * **Localizar detalhes do contato**: peça ao assistente para enriquecer um cliente potencial com mais informações de contato e plano de fundo.
+
+## Pergunte ao bate-papo de IA em todos os dados conectados
+
+O AI Chat pode responder a perguntas em seu Sales Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer B2B Edition] e dados de inteligência da empresa. Faça uma pergunta em linguagem simples para pesquisar informações ou extrair contexto. O AI Chat lê e relata os seus dados; ele não cria, edita ou inicia nada.
+
+Estes são alguns exemplos de prompts. Quanto mais específico você for no prompt, mais focados serão os resultados.
+
+Clientes potenciais e contas:
+
+* &quot;Localizar clientes potenciais com status de envolvimento Novo.&quot;
+* &quot;Pesquise a empresa Adobe.&quot;
+* &quot;Dê-me o perfil completo de um cliente potencial.&quot;
+* &quot;Mostre o desempenho de saída nos últimos 30 dias.&quot;
+* &quot;Listar reuniões reservadas dos últimos 30 dias.&quot;
+
+Centro de conhecimento:
+
+* &quot;Que garantias temos para lidar com objeções de preços?&quot;
+* &quot;Quais são nossos principais diferenciais em relação aos concorrentes?&quot;
+* &quot;Listar documentos no Centro de conhecimento.&quot;
+* &quot;Resumir um documento.&quot;
+
+CRM:
+
+* &quot;Listar oportunidades abertas.&quot;
+* &quot;Liste os cinco primeiros clientes em potencial com nome e email.&quot;
+* &quot;Mostrar atividades de vendas de um cliente potencial ou conta.&quot;
+
+[!DNL Marketo]:
+
+* &quot;Navegue pelas minhas campanhas inteligentes&quot;.
+* &quot;Obtenha a lista inteligente chamada &#39;Adquirido&#39;.&quot;
+* &quot;Navegue pelos meus programas ou obtenha um programa pelo nome.&quot;
+* &quot;Lista [!DNL Marketo] tipos de atividade.&quot;
+
+[!DNL Adobe Journey Optimizer B2B Edition]:
+
+* &quot;Quantas jornadas eu tenho?&quot;
+* &quot;Como meu público-alvo é segmentado por persona?&quot;
+* &quot;Quais páginas de aterrissagem existem em minha conta?&quot;
+* &quot;Quais campos de clientes potenciais são alimentados para pontuação?&quot;
+
+Inteligência da empresa:
+
+* &quot;Que tecnologias são usadas por uma empresa?&quot;
+* &quot;Mostrar notícias recentes de uma empresa.&quot;
+* &quot;Localizar empresas semelhantes a uma determinada empresa.&quot;
+* &quot;Lista de aberturas de emprego para uma empresa.&quot;
+
+### Escopo e limites atuais
+
+* O AI Chat lê e relata os seus dados. Ela não cria, edita ou inicia nada. Por exemplo, ele não cria um programa, não inicia uma campanha nem edita uma lista.
+* O AI Chat pesquisa informações; não é uma ferramenta de relatório. Ele não cria análises ou tendências ao longo do tempo no estilo [!DNL Marketo], como a integridade do email para o trimestre ou uma lista de clientes potenciais criados nos últimos 10 dias. Use relatórios nativos [!DNL Marketo] para essas tarefas.
 
 ## Respostas terrestres no seu manual
 

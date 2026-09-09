@@ -13,9 +13,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1923
+source-wordcount: 2062
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ O assistente de Fluxo de Trabalho de Saída tem cinco etapas: **[!UICONTROL Meta
 1. Na navegação à esquerda, selecione **[!UICONTROL Fluxos de trabalho de saída]**.
 1. Na guia **[!UICONTROL Procurar]**, selecione **[!UICONTROL + Criar Fluxo de Trabalho de Saída]** no canto superior direito.
 
+Os administradores podem atribuir o Fluxo de trabalho de saída a um colega de equipe, em vez de a eles mesmos. Antes de iniciar o fluxo de trabalho, selecione **[!UICONTROL Atribuir usuário]** na lista suspensa e escolha o colega de equipe.
+
 ### Etapa 1: definir sua meta
 
 A meta define o resultado pretendido e orienta o direcionamento, a cadência e a geração de email.
@@ -87,7 +89,7 @@ Após configurar o direcionamento, a IA analisa a meta e os critérios de direci
 
 ![Pontos de contato](assets/create-workflow-touchpoints.png){width="800" zoomable="yes"}
 
-Expanda um ponto de contato de email para ler seu prompt. O prompt orienta a IA durante a gravação do email de cada cliente potencial, incluindo o tom, a duração, o foco e o call to action.
+Para ler o prompt, expanda um ponto de contato de email. O prompt orienta a IA durante a gravação do email de cada cliente potencial, incluindo o tom, o comprimento, o foco e o call to action.
 
 Digitar uma barra `/` exibe a lista de tokens definidos que você pode usar para personalizar o email.
 
@@ -127,7 +129,9 @@ A etapa **[!UICONTROL Configurações]** controla como o Fluxo de Trabalho de Sa
 1. Em **[!UICONTROL Permissões]**, mantenha **[!UICONTROL Privado]** (o padrão) ou selecione **[!UICONTROL Compartilhado com todos]**. Para obter detalhes, consulte [Compartilhar um Fluxo de Trabalho de Saída](#share-an-outbound-workflow).
 1. Selecione **[!UICONTROL Salvar e adicionar clientes potenciais]**.
 
-O rodapé de opção de não participação é configurado globalmente por um administrador e se aplica a emails de saída, independentemente das configurações do Fluxo de trabalho de saída. Consulte [Configurar recusa de email global](integrations.md#configure-global-email-opt-out).
+Para reverter a janela de envio, o fuso horário, os dias, as regras de acompanhamento e de ausência temporária, a visibilidade e a cadência de sugestões para seus padrões, ative **[!UICONTROL Redefinir para as configurações padrão]**. O nome do workflow de saída é deixado inalterado.
+
+Um administrador define o rodapé de recusa globalmente, que se aplica a emails de saída independentemente das configurações do Fluxo de trabalho de saída. Consulte [Configurar recusa de email global](integrations.md#configure-global-email-opt-out).
 
 ### Etapa 5: adicionar prospetos e iniciar a geração de email
 
@@ -144,6 +148,10 @@ Salvar abre a visualização de seleção de cliente potencial com os filtros de
 A IA gera um email personalizado para cada cliente potencial selecionado e ponto de contato de email. Os pontos de contato de telefone e do LinkedIn In InMail permanecem como etapas programadas. Para continuar trabalhando durante a geração, selecione **[!UICONTROL Notificar quando estiver pronto]**.
 
 Para cada prospecto, a IA combina o prompt do ponto de contato com dados de pessoa e conta, histórico de engajamento e notícias recentes para produzir uma linha de assunto e um corpo.
+
+Os emails gerados usam quaisquer dados adicionais salvos em relação a um cliente potencial, incluindo [campos personalizados importados com o cliente potencial](prospects.md#build-your-prospect-list), portanto, os rascunhos são mais relevantes. Não há lista fixa de campos compatíveis, e os campos novos ou personalizados funcionam sem configuração extra. A IA usa esses dados quando são relevantes; se um cliente potencial não tiver dados extras, a geração de email funcionará como antes.
+
+Os emails também podem ser gerados no idioma do cliente potencial, com saudações corretas, frases naturais e tom de negócios apropriado. Os idiomas suportados incluem francês, alemão, espanhol e muito mais.
 
 ## Revisar e refinar emails gerados
 
@@ -192,7 +200,7 @@ A aprovação ativa a cadência de um cliente potencial. O sistema não envia em
 1. Na lista de prospetos à esquerda, selecione os prospetos cujos emails você analisou e estão prontos para envio.
 1. Selecione **[!UICONTROL Aprovar e inscrever clientes potenciais]** no canto inferior direito.
 
-Os emails aprovados são enviados de acordo com os dias selecionados, a janela de envio, a opção de horas ativas e a configuração de fuso horário do Fluxo de trabalho de saída. Um ponto de contato com atraso zero envia sem espera; cada ponto de contato segue seu atraso configurado. Os clientes potenciais não aprovados permanecem em **[!UICONTROL Pronto para Revisão]**.
+Os emails aprovados são enviados de acordo com os dias selecionados, a janela de envio, a opção de horas ativas e a configuração de fuso horário do Fluxo de trabalho de saída. Um ponto de contato com atraso zero envia imediatamente; todos os outros pontos de contato seguem seu atraso configurado. Os clientes potenciais não aprovados permanecem em **[!UICONTROL Pronto para Revisão]**.
 
 ## Compartilhar um fluxo de trabalho de saída
 
@@ -202,7 +210,7 @@ Cada Fluxo de Trabalho de Saída tem uma configuração **[!UICONTROL Permissõe
 >
 >O compartilhamento é permanente. Depois que um Fluxo de Trabalho de Saída é definido como **[!UICONTROL Compartilhado com todos]**, ele não pode ser alterado novamente para **[!UICONTROL Particular]**.
 
-Em um Fluxo de trabalho de saída compartilhado, os colegas de equipe podem inscrever seus próprios prospetos. Cada pessoa pode gerenciar ou pausar somente os clientes potenciais aos quais se inscreveu, inclusive ao usar ações em massa. Somente o proprietário do Fluxo de trabalho de saída pode editar configurações no nível do plano, incluindo a programação, o fuso horário, a cadência e outras configurações. Essas configurações são somente leitura para colegas de equipe.
+Em um Fluxo de trabalho de saída compartilhado, os colegas de equipe podem inscrever seus próprios prospetos. Cada pessoa pode gerenciar ou pausar somente os clientes potenciais aos quais se inscreveu, inclusive ao usar ações em massa. Somente o proprietário do Fluxo de trabalho de saída pode editar configurações no nível do plano, incluindo programação, fuso horário e cadência. Essas configurações são somente leitura para colegas de equipe.
 
 Use esses filtros para manter o foco dos fluxos de trabalho de saída e resultados compartilhados:
 

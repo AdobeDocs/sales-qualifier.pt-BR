@@ -14,9 +14,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4cd91e6f39b7ba30d5650fad1304c74a6d6c91f0
+source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
 workflow-type: tm+mt
-source-wordcount: 1015
+source-wordcount: 1017
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Os usuários devem pertencer ao grupo de usuários `Sales Qualifier` para acessa
 
 Essas etapas são executadas no Adobe Admin Console.
 
-1. No alternador de aplicativos de nove pontos, selecione **[!UICONTROL Admin Console]**.
+1. No alternador de aplicativos, selecione **[!UICONTROL Admin Console]**.
 1. Selecione **[!UICONTROL Usuários]** > **[!UICONTROL Grupos de usuários]** > **[!UICONTROL Novo grupo de usuários]**.
 1. Digite `Sales Qualifier` como o nome do grupo e selecione **[!UICONTROL Salvar]**.
 1. Abra **[!UICONTROL Perfis de produto atribuídos]** e selecione **[!UICONTROL Atribuir perfil]**.
@@ -72,7 +72,7 @@ Você também pode criar um grupo `Sales Qualifier BDR managers` opcional. Os me
 
 ## Conectar seu CRM
 
-O Sales Qualifier se conecta ao Salesforce ou Microsoft Dynamics 365 para fornecer aos BDRs uma visualização unificada de usuários, clientes potenciais, contatos, contas, oportunidades, mapeamentos de proprietários e atividades relacionadas. A conexão inicial requer acesso somente leitura a esses dados do CRM. Trabalhe com o administrador do CRM para preparar credenciais antes de conectar ao Sales Qualifier. Consulte [Integrações](integrations.md) para obter detalhes sobre a integração.
+O Sales Qualifier se conecta ao Salesforce ou Microsoft Dynamics 365 para fornecer aos BDRs uma visualização unificada de usuários, clientes potenciais, contatos, contas, oportunidades, mapeamentos de proprietários e atividades relacionadas. A conexão inicial requer acesso somente leitura a esses dados do CRM. Para preparar credenciais antes de conectar ao Sales Qualifier, trabalhe com o administrador do CRM. Consulte [Integrações](integrations.md) para obter detalhes sobre a integração.
 
 >[!PREREQUISITES]
 >
@@ -93,7 +93,7 @@ Um administrador do sistema do Salesforce cria um aplicativo cliente externo (ta
 >* Modificar Todos os Dados
 >* Gerenciar Aplicativos Conectados
 >
->Sem _Gerenciar Aplicativos Conectados_, o administrador não pode exibir a ID do cliente e o segredo do cliente.
+>O administrador requer _Gerenciar Aplicativos Conectados_ para exibir a ID do cliente e o segredo do cliente.
 
 1. No Salesforce, vá para **[!UICONTROL Configuração]** > **[!UICONTROL Gerenciador de Aplicativos]** e selecione **[!UICONTROL Novo Aplicativo Conectado]** ou **[!UICONTROL Novo Aplicativo Cliente Externo]**.
 1. Insira um nome de aplicativo e um email de contato administrativo.
@@ -118,7 +118,7 @@ Um administrador do sistema do Salesforce cria um aplicativo cliente externo (ta
    * URL de retorno de chamada
    * URL da instância do Salesforce
 
-As etapas podem ser um pouco diferentes das descritas aqui. Consulte a [documentação do Salesforce](https://help.salesforce.com/s/) para obter mais informações.
+As etapas são um pouco diferentes das descritas aqui. Consulte a [documentação do Salesforce](https://help.salesforce.com/s/?language=en_US) para obter mais informações.
 
 ### Encontrar o URL da instância do Salesforce
 
@@ -142,7 +142,7 @@ Um administrador do Microsoft Dynamics 365 ou Azure registra um aplicativo e o a
 1. Selecione o aplicativo Microsoft Entra registrado.
 1. Atribua uma função de segurança que conceda acesso de leitura a clientes potenciais, contatos, contas, oportunidades e atividades.
 
-   É necessária uma função de segurança. Sem um, o aplicativo não pode acessar os dados do Dynamics.
+   É necessária uma função de segurança. Uma função de segurança é necessária para que o aplicativo acesse os dados do Dynamics.
 
 1. Colete a ID do cliente, o segredo do cliente, a ID do locatário e o URL da instância do Dynamics. Use o formulário de URL canônico `https://{{mydomain}}.crm.dynamics.com`.
 

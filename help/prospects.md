@@ -11,10 +11,10 @@ feature_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 351b27d35049b0bb576e9b84f7fd6fada791bb52
+source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
 workflow-type: tm+mt
-source-wordcount: 549
-ht-degree: 2%
+source-wordcount: 698
+ht-degree: 1%
 
 ---
 
@@ -48,6 +48,7 @@ Para adicionar prospetos que não vêm do seu CRM:
 
    * Para uma importação de CSV, carregue um CSV no formato `firstname,email`.
      O nome e o email são obrigatórios. O sobrenome é opcional. O modelo CSV não inclui a coluna de ID de cliente potencial do CRM, mas você pode adicionar a coluna e seus valores ao arquivo antes da importação. Se a importação falhar, revise a mensagem de erro para os campos ou valores a serem corrigidos e, em seguida, faça upload do arquivo novamente.
+     Mapeie campos CSV personalizados ou adicionais, não apenas os campos padrão. A Sales Qualifier salva esses valores em cada cliente potencial e os disponibiliza posteriormente, inclusive para [geração de email](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
    * Para adicionar uma pessoa manualmente, insira seus detalhes no formulário.
 
 1. Selecione **[!UICONTROL Salvar]**.
@@ -88,6 +89,13 @@ Selecione um cliente potencial para abrir seu perfil. Revise os sinais important
 * **Lista de atividades** — Uma lista cronológica de atividades e comportamentos recentes.
 * **Modo de exibição de Linha do Tempo** — uma linha do tempo visual do envolvimento entre canais.
 * **Conteúdo exibido** — páginas da Web e ativos que o cliente potencial visualizou. Selecione um item para abri-lo.
+
+### Gerar preparação da reunião
+
+Além do resumo da pessoa de IA permanente, você pode gerar uma reunião preparada sob medida para uma chamada futura específica a partir da guia **[!UICONTROL Pesquisa de reunião]**, ao lado de **[!UICONTROL Pesquisa de conta]**.
+
+* **Baseado em meta** — Se o cliente potencial estiver inscrito em um Fluxo de Trabalho de Saída em execução, selecione-o. O preparo se alinha à meta desse Fluxo de trabalho de saída, como reservar uma reunião, uma apresentação de produto, um convite de evento ou reengajar o colaborador potencial.
+* **Personalizar prompt**—Digite o que você deseja preparar, por exemplo `Focus on renewal risk` ou `Prepare for a technical deep dive with their IT lead`. O preparo corresponde ao seu prompt. A opção de prompt personalizado está disponível sempre que o cliente potencial não está em um Fluxo de trabalho de saída em execução.
 
 >[!MORELIKETHIS]
 >

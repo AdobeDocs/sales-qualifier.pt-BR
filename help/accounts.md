@@ -1,22 +1,24 @@
 ---
-title: Contas no Sales Qualifier
-description: Saiba como revisar a inteligência de contas no Sales Qualifier, incluindo pesquisa sobre IA, notícias recentes, oportunidades e contatos mais envolvidos, para priorizar o alcance externo.
+title: Contas no Adobe Marketo Qualifier
+description: Saiba como revisar a inteligência de conta no Adobe Marketo Qualifier, incluindo pesquisa de IA, notícias recentes, oportunidades e contatos mais envolvidos, para priorizar o alcance.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '646'
 ht-degree: 0%
-
 ---
-
 
 # Contas
 
@@ -31,7 +33,7 @@ Abrir uma conta do perfil de um cliente potencial associado a ela.
 
 ![Página de detalhes do cliente potencial com guias de Pessoa e Conta](./assets/account-home.png){width="800" zoomable="yes"}
 
-O Sales Qualifier identifica a conta do registro CRM do cliente potencial. A mesma visualização de conta está disponível em todos os clientes potenciais associados a essa conta. Se o Sales Qualifier não corresponder a uma conta, a guia mostrará _Nenhuma conta encontrada_.
+O Adobe Marketo Qualifier identifica a conta do registro de CRM do cliente potencial. A mesma visualização de conta está disponível em todos os clientes potenciais associados a essa conta. Se o Marketo Qualifier não puder corresponder a uma conta, a guia exibirá _Nenhuma conta encontrada_.
 
 >[!NOTE]
 >

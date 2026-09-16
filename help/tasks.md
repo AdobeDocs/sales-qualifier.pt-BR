@@ -1,21 +1,22 @@
 ---
-title: Tarefas no Sales Qualifier
-description: Saiba como processar tarefas de alcance manual e revisar clientes em potencial sugeridos pelo agente na fila de tarefas do Sales Qualifier.
+title: Tarefas no Adobe Marketo Qualifier
+description: Saiba como processar tarefas de alcance manual e revisar clientes em potencial sugeridos pelo agente na fila de tarefas do Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/MbTN1r-ARrW-XYtdIS-KZT7K1Lk-B3GihT8iXL60GrQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: f1202dc6d5657875b6cdc35a0116e31cabebf9be
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 904
+source-wordcount: '907'
 ht-degree: 0%
-
 ---
-
 
 # Tarefas
 
@@ -44,7 +45,7 @@ As tarefas manuais estão vinculadas às etapas do Fluxo de trabalho de saída e
 
 * **[!UICONTROL LinkedIn InMail]** — Criado quando uma cadência atinge uma etapa do LinkedIn InMail. O painel de trabalho mostra o conteúdo a ser copiado e enviado do LinkedIn. Expanda **[!UICONTROL Razão da IA]** para analisar a razão.
 
-* **[!UICONTROL Revisão de email]**—Criada após o Sales Qualifier gerar emails personalizados de um cliente potencial. Selecione **[!UICONTROL Revisar emails]** para revisar e aprovar os rascunhos antes de o alcance externo começar. Consulte [Revisar e refinar emails gerados](outbound-workflows.md#review-and-refine-generated-emails).
+* **[!UICONTROL Revisão de email]**—Criada após o Adobe Marketo Qualifier gerar emails personalizados de um cliente potencial. Selecione **[!UICONTROL Revisar emails]** para revisar e aprovar os rascunhos antes de o alcance externo começar. Consulte [Revisar e refinar emails gerados](outbound-workflows.md#review-and-refine-generated-emails).
 
 ![Revisão de email](assets/tasks-review.png)
 

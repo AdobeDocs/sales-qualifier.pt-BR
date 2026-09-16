@@ -1,20 +1,20 @@
 ---
-title: Desempenho de saída no Sales Qualifier
-description: Saiba como revisar os relatórios de Desempenho da organização e Desempenho da campanha no Sales Qualifier para rastrear a atividade e os resultados de saída.
+title: Desempenho de saída no Adobe Marketo Qualifier
+description: Saiba como revisar relatórios de Desempenho da organização e Desempenho da campanha no Adobe Marketo Qualifier para rastrear atividades e resultados de saída.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/ofBw7JHKkkQaPOeUZ6rreLDAhAfineLveBeVYK-CerQ'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: CX Enterprise
+Outbound Workflows    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 401
+source-wordcount: '404'
 ht-degree: 0%
-
 ---
 
-
-# Desempenho de saída no Sales Qualifier
+# Desempenho de saída no Adobe Marketo Qualifier
 
 Na navegação à esquerda, selecione **[!UICONTROL Desempenho de saída]** para rastrear a atividade de saída e os resultados em sua equipe. O painel tem duas exibições: **[!UICONTROL Desempenho da Organização]** e **[!UICONTROL Desempenho da Campanha]**.
 
@@ -48,7 +48,7 @@ A guia **[!UICONTROL Emails]** informa sobre o volume e a eficácia do email:
 * **Gráfico de tendências de emails semanais**: atividade de email por semana.
 * Tabela de desempenho de email por representante.
 
-A Sales Qualifier atribui status separados a respostas e rejeições fora do escritório para que você possa diferenciá-las do envolvimento do cliente potencial.
+O Marketo Qualifier atribui status separados a respostas e devoluções fora do escritório para que você possa diferenciá-las do envolvimento do cliente potencial.
 
 ### Guia Tarefas
 

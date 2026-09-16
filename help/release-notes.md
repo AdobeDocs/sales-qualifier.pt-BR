@@ -1,16 +1,14 @@
 ---
-title: Notas de versão do Sales Qualifier
-description: Saiba quais são as novidades no Qualificador de venda.
+title: Notas da Versão do Adobe Marketo Qualifier
+description: Saiba mais sobre as novidades do Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 425969ba4795005df9e307f244c1612f1d3f15b7
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '310'
 ht-degree: 12%
-
 ---
-
-# Notas de versão do Sales Qualifier
+# Notas da Versão do Adobe Marketo Qualifier
 
 ## 09-08-2026
 
@@ -23,11 +21,11 @@ Esta versão inclui:
 * Os emails gerados usam quaisquer dados de cliente potencial adicionais que você importar e podem ser escritos nativamente no idioma do cliente potencial. [Saiba mais](outbound-workflows.md#step-5-add-prospects-and-start-email-generation).
 * Desempenho de Saída mostra a taxa de abertura e a taxa de cliques por padrão, com uma alternância para contagens brutas e total de clientes potenciais no nível da organização. [Saiba mais](performance.md).
 * As Regras de Sincronização do CRM atualizam automaticamente o status do CRM à medida que um cliente potencial passa por um Fluxo de Trabalho de Saída. [Saiba mais](admin-settings.md#configure-crm-sync-rules).
-* Faça perguntas sobre o AI Chat nos dados do Sales Qualifier, CRM, [!DNL Marketo] e [!DNL Adobe Journey Optimizer B2B Edition]. [Saiba mais](ai-assistant.md#ask-ai-chat-across-your-connected-data).
+* Faça perguntas sobre o Chat de IA em seus dados de Qualificador da Marketo, CRM, [!DNL Marketo] e [!DNL Adobe Journey Optimizer B2B Edition]. [Saiba mais](ai-assistant.md#ask-ai-chat-across-your-connected-data).
 
 ## 08-17-2026
 
-[!DNL Sales Qualifier] agora está disponível como um aplicativo independente. É compatível com Marketo e Adobe Journey Optimizer B2B.
+[!DNL Marketo Qualifier] agora está disponível como um aplicativo independente. É compatível com Marketo e Adobe Journey Optimizer B2B.
 
 Esta versão inclui:
 

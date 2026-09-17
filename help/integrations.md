@@ -1,34 +1,38 @@
 ---
 title: Gerenciar integrações
-description: Saiba como conectar o Outlook, gerenciar conexões do CRM, mapear campos de entrada, sincronizar atividades e configurar a recusa de email global no Sales Qualifier.
+description: Saiba como conectar o Outlook, gerenciar conexões de CRM, mapear campos de entrada, sincronizar atividades e configurar a recusa de email global no Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User, Admin
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 483e57ab9d8f3f5e4201e0b691e37727a25d3f22
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1379'
 ht-degree: 1%
-
 ---
-
 
 # Integrações
 
-Conecte o Outlook para enviar emails, reconhecer respostas de clientes potenciais e agendar reuniões. Para disponibilizar clientes potenciais, contatos, contas, oportunidades, atividades e proprietários para o Account Qualification Agent (AQA) e para Workflows de saída, você também pode conectar o Sales Qualifier ao Salesforce ou Microsoft Dynamics 365. O Sales Qualifier lê os dados do CRM, pode gravar atividades de alcance geral e status de recusa no CRM e pode sincronizar atividades de alcance geral com o Marketo. Caso contrário, ela não modificará os registros do CRM.
+Conecte o Outlook para enviar emails, reconhecer respostas de clientes potenciais e agendar reuniões. Para disponibilizar leads, contatos, contas, oportunidades, atividades e proprietários para os Workflows de saída e do Account Qualification Agent (AQA), também é possível conectar o Adobe Marketo Qualifier ao Salesforce ou Microsoft Dynamics 365. O Marketo Qualifier lê os dados do CRM, pode gravar atividades de alcance geral e status de recusa no CRM e pode sincronizar atividades de alcance geral com o Marketo. Caso contrário, ela não modificará os registros do CRM.
 
 Este artigo explica como conectar o Outlook, gerenciar uma conexão de CRM, mapear campos, sincronizar atividades e configurar a opção de não participação de email. Para conectar um CRM pela primeira vez, consulte [Introdução](getting-started.md#connect-your-crm).
 
 >[!IMPORTANT]
 >
->A conexão do Outlook é por representante. As configurações de CRM e conformidade descritas posteriormente neste artigo se aplicam a toda a organização. Para acessar essas configurações em toda a organização, você deve pertencer aos grupos de usuários `Sales Qualifier` e `Sales Qualifier Admins`. Os usuários padrão podem usar os dados e filtros do CRM configurados, mas não podem alterar as configurações.
+>A conexão do Outlook é por representante. As configurações de CRM e conformidade descritas posteriormente neste artigo se aplicam a toda a organização. Para acessar essas configurações em toda a organização, você deve pertencer aos grupos de usuários `Marketo Qualifier` e `Marketo Qualifier Admins`. Os usuários padrão podem usar os dados e filtros do CRM configurados, mas não podem alterar as configurações.
 
 ## Conectar o Outlook
 
@@ -38,9 +42,9 @@ Cada representante conecta sua própria conta do Outlook:
 1. Faça logon com sua conta da Microsoft.
 1. Revise e aprove o acesso solicitado.
 
-A conexão permite que o Sales Qualifier envie de sua caixa de correio, reconheça quando um cliente potencial responde e agende reuniões em seu calendário.
+A conexão permite que o Qualificador da Marketo envie de sua caixa de correio, reconheça quando um cliente potencial responde e agende reuniões em seu calendário.
 
-Ao se conectar, você aprova o acesso que permite ao Sales Qualifier:
+Ao se conectar, você aprova o acesso que permite ao Qualificador do Marketo:
 
 * Reconhecer respostas de clientes potenciais.
 * Crie e envie emails em seu nome.
@@ -52,11 +56,11 @@ Ao se conectar, você aprova o acesso que permite ao Sales Qualifier:
 
 Por padrão, nenhuma ação do administrador é necessária. Cada representante aprova o acesso para si mesmo ao conectar o Outlook.
 
-Se sua organização tiver desativado o consentimento do usuário para aplicativos de terceiros no Microsoft 365 ou Microsoft Entra, um administrador do Microsoft 365 ou Entra deverá aprovar o Sales Qualifier uma vez para toda a organização. O administrador conclui esta aprovação antes que os representantes conectem suas contas do Outlook. Após a aprovação em toda a organização, cada representante pode conectar sua conta.
+Se sua organização tiver desativado o consentimento do usuário para aplicativos de terceiros no Microsoft 365 ou Microsoft Entra, um administrador do Microsoft 365 ou Entra deverá aprovar o Qualificador do Marketo uma vez para toda a organização. O administrador conclui esta aprovação antes que os representantes conectem suas contas do Outlook. Após a aprovação em toda a organização, cada representante pode conectar sua conta.
 
-### Como o Sales Qualifier lida com os dados da sua caixa de correio
+### Como o Marketo Qualifier lida com os dados da sua caixa de correio
 
-O Sales Qualifier lê somente as respostas para emails enviados, não para o restante da caixa de entrada. Ele não armazena anexos ou emails de entrada fora de um envolvimento ativo. As credenciais de entrada armazenadas estão criptografadas.
+O qualificador do Marketo lê somente as respostas para emails enviados, não para o restante de sua caixa de entrada. Ele não armazena anexos ou emails de entrada fora de um envolvimento ativo. As credenciais de entrada armazenadas estão criptografadas.
 
 ## Abrir configurações do CRM
 
@@ -106,11 +110,11 @@ Um cartão não configurado mostra **[!UICONTROL Conectar]**. Um cartão configu
 
 1. Selecione **[!UICONTROL Conectar]** (ou **[!UICONTROL Salvar]** ao editar).
 
-Se o Sales Qualifier rejeitar as credenciais, identificará a causa, como credenciais inválidas ou expiradas, permissões ausentes ou um locatário não reconhecido do Dynamics. Corrija o valor e tente novamente.
+Se o Marketo Qualifier rejeitar as credenciais, ele identificará a causa, como credenciais inválidas ou expiradas, permissões ausentes ou um locatário não reconhecido do Dynamics. Corrija o valor e tente novamente.
 
 >[!IMPORTANT]
 >
->Não envie segredos do cliente por email. Use o canal seguro aprovado da sua organização para compartilhar credenciais com quem quer que as insira no Sales Qualifier.
+>Não envie segredos do cliente por email. Use o canal seguro aprovado da sua organização para compartilhar credenciais com quem quer que as insira no Marketo Qualifier.
 
 ### Desconectar uma conexão
 
@@ -123,7 +127,7 @@ Se o Sales Qualifier rejeitar as credenciais, identificará a causa, como creden
 
 ## Mapear campos do CRM (mapeamento de entrada) {#map-crm-fields-inbound-mapping}
 
-O mapeamento de entrada controla quais campos do CRM o Sales Qualifier importa e onde eles aparecem. Os campos são agrupados em seções e cada seção pertence a um tipo de entidade.
+O mapeamento de entrada controla quais campos do CRM o Qualificador do Marketo importa e onde eles aparecem. Os campos são agrupados em seções e cada seção pertence a um tipo de entidade.
 
 ![Mapeamento de entrada](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
 
@@ -155,23 +159,23 @@ Para alterar uma seção posteriormente, selecione **[!UICONTROL Editar]** no ca
 
 ## Configurar a sincronização de atividades (mapeamento de saída) {#configure-activity-sync-outbound-mapping}
 
-A sincronização de atividades grava atividades de alcance da Sales Qualifier no seu CRM e no Marketo. As atividades de email enviado, aberto, clicado e respondido incluem o nome do Fluxo de trabalho de saída. Os representantes podem ver as atividades no CRM, enquanto as equipes de marketing podem usar as atividades do Marketo na pontuação de clientes potenciais e nas linhas do tempo de engajamento.
+A sincronização de atividades grava atividades de alcance do Marketo Qualifier em seu CRM e no Marketo. As atividades de email enviado, aberto, clicado e respondido incluem o nome do Fluxo de trabalho de saída. Os representantes podem ver as atividades no CRM, enquanto as equipes de marketing podem usar as atividades do Marketo na pontuação de clientes potenciais e nas linhas do tempo de engajamento.
 
 1. No cartão do CRM conectado, selecione **[!UICONTROL Gerenciar]**.
 1. Abra a guia **[!UICONTROL Mapeamento de saída]**.
 1. Ative a **[!UICONTROL Sincronização de atividade]**. A configuração é salva imediatamente.
 
-Quando a sincronização de atividades está desativada, o Sales Qualifier continua a usar dados de entrada do CRM, mas não sincroniza atividades de alcance para o CRM ou o Marketo.
+Quando a sincronização de atividades está desativada, o Qualificador da Marketo continua a usar dados de entrada do CRM, mas não sincroniza atividades de alcance para o CRM ou o Marketo.
 
 >[!NOTE]
 >
->A sincronização de atividades requer acesso de gravação no CRM. Se a permissão necessária estiver ausente, o switch será desativado e a Sales Qualifier solicitará que você entre em contato com o administrador. Para conceder acesso de gravação à atividade, fale com o administrador do CRM.
+>A sincronização de atividades requer acesso de gravação no CRM. Se a permissão necessária estiver ausente, o switch será desativado e o Marketo Qualifier solicitará que você entre em contato com o administrador. Para conceder acesso de gravação à atividade, fale com o administrador do CRM.
 
 ## Configurar destaques de marketing {#turn-on-marketo-engagement-filtering}
 
 Os Destaques de marketing permitem que os representantes encontrem e priorizem clientes potenciais por meio do envolvimento ativo de [!DNL Marketo], como aberturas e cliques de email. Consulte [Filtrar por destaques de marketing](prospects.md#filter-by-marketing-highlights).
 
-Um administrador conclui uma configuração única que conecta o [!DNL Marketo] ao Sales Qualifier para a organização e a sandbox relevantes. A instalação abrange a criação de credenciais de API no Adobe Developer Console, a configuração de um webhook no [!DNL Marketo] e a adição desse webhook a um acionador de Campanha Inteligente. Consulte [Configurar destaques de marketing](marketing-highlights-setup.md) para ver as etapas completas.
+Um administrador conclui uma configuração única que conecta o [!DNL Marketo] ao Qualificador da Marketo para a organização e a sandbox relevantes. A instalação abrange a criação de credenciais de API no Adobe Developer Console, a configuração de um webhook no [!DNL Marketo] e a adição desse webhook a um acionador de Campanha Inteligente. Consulte [Configurar destaques de marketing](marketing-highlights-setup.md) para ver as etapas completas.
 
 Marketing Highlights está disponível em todas as regiões de produção: América do Norte, EMEA e Austrália.
 
@@ -188,16 +192,16 @@ A configuração de recusa anexa um rodapé de cancelamento de inscrição a cad
 
 A configuração e o modelo são salvos automaticamente.
 
-Quando um cliente potencial seleciona o link, o Sales Qualifier interrompe o envio de emails para esse cliente potencial e sincroniza o status de recusa para o CRM conectado.
+Quando um cliente potencial seleciona o link, o Marketo Qualifier interrompe o envio de emails para esse cliente potencial e sincroniza o status de recusa para o CRM conectado.
 
 ## Escopo de acesso do CRM
 
-O Sales Qualifier lê as entidades de CRM de que precisa e grava apenas um conjunto definido de dados:
+O Marketo Qualifier lê as entidades de CRM de que necessita e grava apenas um conjunto definido de dados:
 
 * **Leitura** — Usuários, contatos, mapeamentos de proprietários, clientes potenciais, contas, oportunidades e atividades.
 * **Gravação**—Atividades de alcance registradas (quando [a sincronização de atividades](#configure-activity-sync-outbound-mapping) está ativada) e status de recusa.
 
-Seu administrador de CRM prepara o acesso à API no Salesforce ou Dynamics. Em seguida, um administrador do Sales Qualifier conecta o CRM, mapeia campos de entrada e escolhe se deseja sincronizar atividades. A conexão inicial requer acesso somente leitura. A sincronização de atividades e a opção de recusa de gravação exigem o acesso de gravação correspondente.
+Seu administrador de CRM prepara o acesso à API no Salesforce ou Dynamics. Um administrador do Marketo Qualifier conecta o CRM, mapeia os campos de entrada e escolhe se deseja sincronizar as atividades. A conexão inicial requer acesso somente leitura. A sincronização de atividades e a opção de recusa de gravação exigem o acesso de gravação correspondente.
 
 >[!MORELIKETHIS]
 >

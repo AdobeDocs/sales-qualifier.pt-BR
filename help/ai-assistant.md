@@ -1,28 +1,30 @@
 ---
 title: Usar o bate-papo de IA
-description: Saiba como usar o Bate-papo de IA no Sales Qualifier para pesquisar contas, elaborar projetos de alcance e obter respostas com base em seu CRM, envolvimento e dados do Centro de conhecimento.
+description: Saiba como usar o AI Chat no Adobe Marketo Qualifier para pesquisar contas, elaborar projetos de alcance e obter respostas com base em seus dados de CRM, envolvimento e Centro de conhecimento.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
-source-git-commit: c7f4e1b7adc4b3420ea5f16c3b426c40bb300d45
+    internal-label: Artificial intelligence
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '727'
 ht-degree: 1%
-
 ---
-
 
 # Chat de IA
 
-O AI Chat responde a perguntas em linguagem natural com base no contexto de vendas. Use-a para pesquisar uma conta, preparar uma chamada, rascunhar um alcance e priorizar seu trabalho sem sair do Sales Qualifier.
+O AI Chat responde a perguntas em linguagem natural com base no contexto de vendas. Use-a para pesquisar uma conta, preparar uma chamada, rascunhar um alcance geral e priorizar seu trabalho sem sair do Adobe Marketo Qualifier.
 
 ![Botão de bate-papo de IA](assets/ai-chat.png){width="800" zoomable="yes"}
 
@@ -56,7 +58,7 @@ Use o AI Chat para estes tipos de tarefas:
 
 ## Pergunte ao bate-papo de IA em todos os dados conectados
 
-O AI Chat pode responder a perguntas em seu Sales Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer B2B Edition] e dados de inteligência da empresa. Faça uma pergunta em linguagem simples para pesquisar informações ou extrair contexto. O AI Chat lê e relata os seus dados; ele não cria, edita ou inicia nada.
+O AI Chat pode responder a perguntas no Marketo Qualifier, CRM, [!DNL Marketo], [!DNL Adobe Journey Optimizer B2B Edition] e nos dados de inteligência da empresa. Faça uma pergunta em linguagem simples para pesquisar informações ou extrair contexto. O AI Chat lê e relata os seus dados; ele não cria, edita ou inicia nada.
 
 Estes são alguns exemplos de prompts. Quanto mais específico você for no prompt, mais focados serão os resultados.
 

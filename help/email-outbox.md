@@ -1,20 +1,21 @@
 ---
 title: Revisar a caixa de saída de email
-description: Saiba como revisar os emails enviados pelo Sales Qualifier em seu nome, incluindo respostas, na Caixa de saída de email.
+description: Saiba como revisar os emails que o Adobe Marketo Qualifier enviou em seu nome, incluindo respostas, na Caixa de saída de email.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 8573d3891d5c8ec8a05637f160f120f933b0ec61
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 328
+source-wordcount: '330'
 ht-degree: 0%
-
 ---
-
 
 # Caixa de saída de email
 
@@ -26,7 +27,7 @@ A página tem dois painéis: uma lista de emails à esquerda e uma visualizaçã
 
 A lista **[!UICONTROL Todos os emails]** contém uma linha para cada email enviado, com o email mais recente primeiro. Cada linha mostra o nome, o assunto e a data de envio do recipient. Um email sem um assunto mostra _(Sem assunto)_. Role para carregar emails mais antigos.
 
-Ao abrir a página, o Sales Qualifier seleciona o primeiro email automaticamente para que seu conteúdo apareça à direita.
+Ao abrir a página, o Adobe Marketo Qualifier seleciona o primeiro email automaticamente para que o conteúdo apareça à direita.
 
 Se você não enviou nenhum email, a lista mostra _Sua caixa de saída está vazia_. Depois de enviar ou agendar um email por meio de um Fluxo de trabalho de saída, ele é exibido aqui.
 
@@ -38,7 +39,7 @@ Selecione um email na lista para abri-lo à direita. O modo de exibição de lei
 * **Fluxo de Trabalho de Assunto e Saída** — O assunto, o nome do [Fluxo de Trabalho de Saída](outbound-workflows.md) que enviou o email e o status do Fluxo de Trabalho de Saída. Selecione o nome do Fluxo de trabalho de saída para abri-lo.
 * **Conversação** — O email enviado e todas as respostas em um thread. Cada entrada identifica se a mensagem foi enviada ou recebida e inclui um carimbo de data e hora.
 
-Os emails são renderizados conforme são enviados, incluindo o conteúdo personalizado. Se o corpo da mensagem não estiver disponível, o Sales Qualifier mostrará uma breve observação _Conteúdo de email não disponível_ em seu lugar.
+Os emails são renderizados conforme são enviados, incluindo o conteúdo personalizado. Se o corpo de uma mensagem não estiver disponível, o Qualificador do Marketo mostrará uma breve observação _Conteúdo de email não disponível_ em seu lugar.
 
 >[!NOTE]
 >

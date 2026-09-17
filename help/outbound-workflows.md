@@ -1,25 +1,29 @@
 ---
 title: Criar e gerenciar fluxos de trabalho de saída
-description: Saiba como criar, compartilhar, revisar e gerenciar fluxos de trabalho de saída gerados por IA no Sales Qualifier para executar cadências de alcance orientadas por metas.
+description: Saiba como criar, compartilhar, revisar e gerenciar fluxos de trabalho de saída gerados por IA no Adobe Marketo Qualifier para executar cadências de alcance orientadas por metas.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/n3FbuiM2zF9QSqaKx1bhBSdbsf-w7vEsEGjCQTBo3g4'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+    internal-label: Integrations
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 527d6a99f1ca51371ab0bc44ee61482bac56fc4f
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 2062
+source-wordcount: '2064'
 ht-degree: 0%
-
 ---
-
 
 # Fluxos de trabalho de saída
 
@@ -155,7 +159,7 @@ Os emails também podem ser gerados no idioma do cliente potencial, com saudaç�
 
 ## Revisar e refinar emails gerados
 
-Quando a geração termina, a exibição detalhada do Fluxo de trabalho de saída solicita que você revise os rascunhos. A Sales Qualifier não envia emails até que você o aprove.
+Quando a geração termina, a exibição detalhada do Fluxo de trabalho de saída solicita que você revise os rascunhos. O Adobe Marketo Qualifier não enviará um email até que você o aprove.
 
 1. Na exibição detalhada do Fluxo de Trabalho de Saída, selecione **[!UICONTROL Revisar rascunhos]** no banner.
 1. A etapa **[!UICONTROL Pontos de contato de revisão]** tem duas guias:
@@ -234,10 +238,10 @@ A [Caixa de Saída de Email](email-outbox.md) lista os emails automatizados envi
 
 ## Reserva de reunião
 
-Ao conectar o calendário, o Sales Qualifier gera um link de reserva pessoal que os clientes potenciais podem usar para agendar horas com você.
+Quando você conecta seu calendário, o Qualificador Marketo gera um vínculo de reserva pessoal que os prospetos podem usar para programar horas com você.
 
 * **Links de reserva**—Configure a conexão e a disponibilidade do calendário nas [Configurações de perfil](profile-settings.md). Adicione o link de reserva à sua assinatura de email para que ele apareça em emails de saída.
-* **Posicionamento de cadência** — o Sales Qualifier insere seu link de reserva em pontos relevantes em uma cadência. Você pode alterar sua disposição.
+* **Posicionamento de cadência** — O Marketo Qualifier insere seu link de reserva em pontos relevantes em uma cadência. Você pode alterar sua disposição.
 * **Pausa de Reserva** — Quando um cliente potencial registra uma reunião, a **[!UICONTROL Pausa de Reserva de Reunião]** interrompe as acompanhamentos adicionais. Consulte [Etapa 4: definir configurações de Fluxo de Trabalho de Saída](#step-4-configure-outbound-workflow-settings).
 
 Acompanhe os resultados da reserva na página [Desempenho de saída](performance.md).

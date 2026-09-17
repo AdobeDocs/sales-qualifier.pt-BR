@@ -1,21 +1,22 @@
 ---
 title: Definir configurações de perfil
-description: Saiba como configurar sua conexão de email, assinatura e disponibilidade de calendário nas configurações de perfil do Sales Qualifier.
+description: Saiba como configurar sua conexão de email, assinatura e disponibilidade de calendário nas configurações de perfil do Adobe Marketo Qualifier.
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/juP3sddkmc-nSTcTEKGWolbCwNWDgSA0yr6XK1X-w94'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 17bfe0a1ce9b289ed85af0f72ddd089b11cca875
+    internal-label: Insights
+source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: '396'
 ht-degree: 3%
-
 ---
-
 
 # Configurações do perfil
 
@@ -65,12 +66,12 @@ Se você desconectar seu calendário:
 
 ## Disponibilidade do calendário
 
-A disponibilidade de seu calendário no Sales Qualifier é baseada em duas entradas:
+A disponibilidade de seu calendário no Adobe Marketo Qualifier baseia-se em duas entradas:
 
 * Seu calendário de trabalho conectado, como Outlook ou Gmail
 * As regras de disponibilidade e intervalo de tempo na **[!UICONTROL Configuração do calendário]**
 
-O Sales Qualifier lê o status de disponibilidade, não os detalhes do evento, do calendário conectado. Ele combina esse status com suas regras para determinar os intervalos de tempo que os clientes potenciais podem reservar.
+O Marketo Qualifier lê o status de disponibilidade, não os detalhes do evento, do calendário conectado. Ele combina esse status com suas regras para determinar os intervalos de tempo que os clientes potenciais podem reservar.
 
 Você pode configurar:
 
